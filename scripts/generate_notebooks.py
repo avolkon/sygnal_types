@@ -277,6 +277,40 @@ display(sub_df.head())
 Распределение кластеров воспроизводит обучение; готово к загрузке на Kaggle."""
             )
         ),
+        _md(
+            """## Kaggle — таблица лидеров (первая отправка)
+
+Скриншот: `Разработка/kaggle_leaderboard_first_submission.png`."""
+        ),
+        _code(
+            """
+from IPython.display import Image, display
+
+LEADERBOARD_IMG = ROOT / "Разработка" / "kaggle_leaderboard_first_submission.png"
+kaggle_leaderboard = {
+    "competition": "Классификация типов сигналов",
+    "image_path": str(LEADERBOARD_IMG),
+    "image_exists": LEADERBOARD_IMG.exists(),
+    "rank": 33,
+    "score": 0.36568,
+    "submissions": 1,
+}
+print(kaggle_leaderboard)
+if kaggle_leaderboard["image_exists"]:
+    display(Image(filename=str(LEADERBOARD_IMG)))
+"""
+        ),
+        _code(
+            """
+from IPython.display import Markdown, display
+
+display(Markdown(f'''### Kaggle — ML-архитектор
+Первая отправка: место **#{kaggle_leaderboard["rank"]}**, accuracy **{kaggle_leaderboard["score"]:.5f}** (цель ≥ 0.84). Silhouette **{infer_result["metrics"]["silhouette"]:.4f}**.
+
+### Kaggle — физик
+Score **{kaggle_leaderboard["score"]:.5f}** — требуется уточнение перекодировки кластеров 0/1/2.'''))
+"""
+        ),
     ]
     return new_notebook(
         cells=cells,

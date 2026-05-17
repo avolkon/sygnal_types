@@ -11,7 +11,7 @@ import pandas as pd
 from sklearn.mixture import GaussianMixture
 from sklearn.preprocessing import QuantileTransformer, RobustScaler
 
-from sygnal_clustering.config import DATA_PATH, RANDOM_STATE, REPO_ROOT
+from sygnal_clustering.config import DATA_PATH, RANDOM_STATE, REPO_ROOT, SUBMISSION_PATH
 from sygnal_clustering.data import load_waveforms
 from sygnal_clustering.metrics import cluster_sizes, clustering_scores
 from sygnal_clustering.models import remap_labels_physics
@@ -140,6 +140,7 @@ def run_all_v3(
     labels_to_submission(lab_b, SUBMISSION3B_PATH)
     labels_to_submission(lab_c, SUBMISSION3C_PATH)
     shutil.copy(SUBMISSION3C_PATH, SUBMISSION3_PATH)
+    shutil.copy(SUBMISSION3C_PATH, SUBMISSION_PATH)
 
     report = {
         "A_meta_col2": metrics_for_labels(lab_a, fe_a, "meta_col2_tercile"),
