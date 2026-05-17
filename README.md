@@ -60,4 +60,4 @@ jupyter notebook notebook_5_v3_experience.ipynb
 
 ## Лицензия и данные
 
-Данные `Run200_Wave_0_1.txt` — в рамках учебного проекта МФТИ / Kaggle.
+Данные `Run200_Wave_0_1.txt` — в рамках учебного проекта МИФИ / Kaggle.
