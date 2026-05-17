@@ -18,10 +18,12 @@ from sygnal_clustering.models import remap_labels_physics
 from sygnal_clustering.signal_extraction import extract_description_features
 
 ARTIFACTS_V3_DIR = REPO_ROOT / "artifacts_v3"
-SUBMISSION3_PATH = REPO_ROOT / "submission3.csv"
-SUBMISSION3A_PATH = REPO_ROOT / "submission3a.csv"
-SUBMISSION3B_PATH = REPO_ROOT / "submission3b.csv"
-SUBMISSION3C_PATH = REPO_ROOT / "submission3c.csv"
+_EXPERIMENTS = REPO_ROOT / "Разработка" / "Эксперименты"
+_SUBMISSIONS_ARCHIVE = _EXPERIMENTS / "submissions"
+SUBMISSION3_PATH = _EXPERIMENTS / "submission3.csv"
+SUBMISSION3A_PATH = _SUBMISSIONS_ARCHIVE / "submission3a.csv"
+SUBMISSION3B_PATH = _SUBMISSIONS_ARCHIVE / "submission3b.csv"
+SUBMISSION3C_PATH = _EXPERIMENTS / "submission3c.csv"
 
 
 def _load_raw_col2(path: Path | None = None) -> np.ndarray:
