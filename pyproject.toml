@@ -7,7 +7,6 @@ dependencies = [
     "numpy>=1.24",
     "pandas>=2.0",
     "scikit-learn>=1.3",
-    "scipy>=1.11",
     "joblib>=1.3",
 ]
 
@@ -25,6 +24,7 @@ select = ["E", "F", "I", "W"]
 
 [tool.ruff.lint.per-file-ignores]
 "scripts/generate_notebooks.py" = ["E501"]
-"scripts/generate_notebooks_v3_v4.py" = ["E501", "W291"]
-"scripts/generate_notebooks_v5_v6.py" = ["E501", "W291"]
+"scripts/legacy/generate_notebooks_v1_v2.py" = ["E501"]
+"scripts/legacy/generate_notebooks_v3_v4.py" = ["E501", "W291"]
+"scripts/legacy/generate_notebooks_v5_v6.py" = ["E501", "W291"]
 "scripts/tune_method_c.py" = ["E501"]

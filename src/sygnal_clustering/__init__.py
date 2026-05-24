@@ -1,14 +1,13 @@
-"""Clustering pipeline for scintillation detector signals."""
+"""Clustering pipeline for scintillation detector signals (production: v3 method C)."""
 
 from sygnal_clustering.config import DATA_PATH, RANDOM_STATE
-from sygnal_clustering.pipeline import SygnalClusteringPipeline
-from sygnal_clustering.pipeline_v2 import SygnalClusteringPipelineV2
-from sygnal_clustering.pipeline_v3 import run_all_v3
+from sygnal_clustering.io import write_submission
+from sygnal_clustering.pipeline import method_c_gmm2_low_confidence, run_all_v3
 
 __all__ = [
     "DATA_PATH",
     "RANDOM_STATE",
-    "SygnalClusteringPipeline",
-    "SygnalClusteringPipelineV2",
+    "method_c_gmm2_low_confidence",
     "run_all_v3",
+    "write_submission",
 ]

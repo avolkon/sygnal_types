@@ -1,4 +1,4 @@
-"""Tune method C (uncertain_fraction) and write submission4.csv."""
+"""Tune method C uncertain_fraction and write submission4.csv."""
 
 from __future__ import annotations
 
@@ -9,28 +9,25 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from sygnal_clustering.config import DATA_PATH, RANDOM_STATE  # noqa: E402
+from sygnal_clustering.config import ARTIFACTS_V3_DIR, RANDOM_STATE, SUBMISSION4_PATH  # noqa: E402
 from sygnal_clustering.data import load_waveforms  # noqa: E402
-from sygnal_clustering.pipeline_v3 import (  # noqa: E402
-    labels_to_submission,
+from sygnal_clustering.io import write_submission  # noqa: E402
+from sygnal_clustering.pipeline import (  # noqa: E402
     method_c_gmm2_low_confidence,
     metrics_for_labels,
 )
 
-SUBMISSION4_PATH = ROOT / "submission4.csv"
-REPORT_PATH = ROOT / "artifacts_v3" / "tune_method_c.json"
 TARGET_CLUSTER2_FRAC = 0.05
 
 
 def main() -> None:
-    x = load_waveforms(DATA_PATH)
+    x = load_waveforms()
     results = []
     best_frac = 0.05
     best_dist = float("inf")
     best_labels = None
-    best_features = None
 
-    for frac in [0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.10, 0.12]:
+    for frac in [0.03, 0.04, 0.05, 0.06, 0.07, 0.08]:
         lab, fe = method_c_gmm2_low_confidence(x, uncertain_fraction=frac, random_state=RANDOM_STATE)
         m = metrics_for_labels(lab, fe, f"gmm2_unc_{frac:.2f}")
         m["uncertain_fraction"] = frac
@@ -40,18 +37,18 @@ def main() -> None:
             best_dist = dist
             best_frac = frac
             best_labels = lab
-            best_features = fe
 
-    assert best_labels is not None and best_features is not None
-    labels_to_submission(best_labels, SUBMISSION4_PATH)
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    assert best_labels is not None
+    write_submission(best_labels, SUBMISSION4_PATH)
+    report_path = ARTIFACTS_V3_DIR / "tune_method_c.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
     report = {
         "best_uncertain_fraction": best_frac,
         "target_cluster2_fraction": TARGET_CLUSTER2_FRAC,
         "grid": results,
         "note": "Kaggle best was 3c at uncertain_fraction=0.05, score 0.44571",
     }
-    with open(REPORT_PATH, "w", encoding="utf-8") as f:
+    with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
     print(json.dumps(report, indent=2, ensure_ascii=False))
 

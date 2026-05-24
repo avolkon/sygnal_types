@@ -1,4 +1,4 @@
-"""Domain feature extraction (PSD, amplitude, charge)."""
+"""Domain feature extraction for legacy v1/v2 pipelines (full-waveform charge)."""
 
 from __future__ import annotations
 
@@ -55,7 +55,7 @@ def extract_domain_features(
 
 
 def first_pc_amplitude_charge(features: np.ndarray, random_state: int = 42) -> np.ndarray:
-    """First principal component in (charge, peak) space — Description discriminator."""
+    """First principal component in (charge, peak) space."""
     charge = features[:, 1:2]
     peak = features[:, 0:1]
     z = RobustScaler().fit_transform(np.hstack([charge, peak]))

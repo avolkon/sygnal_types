@@ -1,4 +1,4 @@
-"""Train v2 pipeline and write submission2.csv."""
+﻿"""Train v2 pipeline and write submission2.csv."""
 
 from __future__ import annotations
 
@@ -6,14 +6,12 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
-from sygnal_clustering.config import DATA_PATH, RANDOM_STATE  # noqa: E402
+from sygnal_clustering.config import ARTIFACTS_V2_DIR, RANDOM_STATE, SUBMISSION2_PATH  # noqa: E402
 from sygnal_clustering.data import load_waveforms  # noqa: E402
-from sygnal_clustering.pipeline_v2 import (  # noqa: E402
-    ARTIFACTS_V2_DIR,
-    SUBMISSION2_PATH,
+from sygnal_clustering.legacy.pipeline_v2 import (  # noqa: E402
     SygnalClusteringPipelineV2,
     compare_v2_methods,
 )
@@ -36,7 +34,7 @@ def balance_score(metrics: dict) -> float:
 
 
 def main() -> None:
-    x = load_waveforms(DATA_PATH)
+    x = load_waveforms()
     comparison = compare_v2_methods(x, random_state=RANDOM_STATE)
 
     best_score = -1.0

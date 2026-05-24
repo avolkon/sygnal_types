@@ -26,10 +26,25 @@ def resolve_data_path() -> Path:
     raise FileNotFoundError(msg)
 
 
+def load_raw_dataframe(path: Path | str | None = None) -> pd.DataFrame:
+    """Load raw Run200 CSV before column drop."""
+    path = Path(path) if path is not None else resolve_data_path()
+    return pd.read_csv(path, sep=" ", header=None, skipinitialspace=True)
+
+
+def load_metadata_column(column: int, path: Path | str | None = None) -> np.ndarray:
+    """Load a single metadata column from the raw CSV (e.g. col2 for method A)."""
+    df = load_raw_dataframe(path)
+    if column < 0 or column >= df.shape[1]:
+        msg = f"Column {column} out of range for {df.shape[1]} columns"
+        raise ValueError(msg)
+    return df[column].to_numpy(dtype=np.float64)
+
+
 def load_waveforms(path: Path | str | None = None) -> np.ndarray:
     """Load Run200 waveform matrix (n_samples, 500)."""
     path = Path(path) if path is not None else resolve_data_path()
-    df = pd.read_csv(path, sep=" ", header=None, skipinitialspace=True)
+    df = load_raw_dataframe(path)
     df = df.drop(columns=DROP_COLUMNS, errors="ignore")
     if df.shape[1] != N_FEATURES:
         msg = f"Expected {N_FEATURES} features, got {df.shape[1]}"

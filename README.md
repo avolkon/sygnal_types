@@ -19,7 +19,7 @@ pip install -r requirements.txt
 # Windows: set PYTHONPATH=src
 # Linux/macOS: export PYTHONPATH=src
 pytest tests -q
-python scripts/run_experiments_v3.py
+python scripts/run_experiments.py
 jupyter notebook notebook_5_v3_experience.ipynb
 ```
 
@@ -34,7 +34,7 @@ jupyter notebook notebook_5_v3_experience.ipynb
 | `notebook_6_v3_model.ipynb` | **Финальный инференс** (метод C) |
 | `Разработка/Эксперименты/submission3c.csv` | Лучший submission |
 | `Разработка/Эксперименты/submission.csv` | Копия 3c (формат ТЗ) |
-| `src/sygnal_clustering/` | Код пайплайна |
+| `src/sygnal_clustering/` | Production pipeline (`pipeline.py`, method C) + `legacy/` |
 | `requirements.txt` | Зависимости |
 
 **`Разработка/`:**
@@ -47,7 +47,7 @@ jupyter notebook notebook_5_v3_experience.ipynb
 
 ## Финальная модель
 
-- **Метод:** `method_c_gmm2_low_confidence` (`pipeline_v3` + `signal_extraction`)
+- **Метод:** `method_c_gmm2_low_confidence` (`pipeline.py` + `signal_extraction`)
 - **Схема:** признаки по Description (3σ, PSD, decay 40%) → GMM k=2 → 5% uncertain → кластер 2
 - **Кластеры:** ~52% / ~43% / ~5%
 

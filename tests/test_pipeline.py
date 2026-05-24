@@ -3,12 +3,12 @@ import pytest
 
 from sygnal_clustering.config import DATA_PATH, N_SAMPLES
 from sygnal_clustering.data import load_waveforms
-from sygnal_clustering.pipeline import SygnalClusteringPipeline
+from sygnal_clustering.legacy.pipeline_v1 import SygnalClusteringPipeline
 
 
 @pytest.mark.skipif(not DATA_PATH.exists(), reason="dataset not present")
 def test_pipeline_labels_valid():
-    x = load_waveforms(DATA_PATH)
+    x = load_waveforms()
     pipe = SygnalClusteringPipeline()
     labels = pipe.fit_predict(x)
     assert labels.shape == (N_SAMPLES,)
@@ -17,7 +17,7 @@ def test_pipeline_labels_valid():
 
 @pytest.mark.skipif(not DATA_PATH.exists(), reason="dataset not present")
 def test_submission_format(tmp_path):
-    x = load_waveforms(DATA_PATH)
+    x = load_waveforms()
     pipe = SygnalClusteringPipeline()
     pipe.fit_predict(x)
     out = tmp_path / "submission.csv"

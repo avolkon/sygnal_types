@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import numpy as np
 from sklearn.metrics import (
-    adjusted_rand_score,
     calinski_harabasz_score,
     davies_bouldin_score,
     silhouette_score,
@@ -38,12 +37,3 @@ def clustering_scores(
 def cluster_sizes(labels: np.ndarray, n_clusters: int = 3) -> dict[str, int]:
     counts = np.bincount(labels, minlength=n_clusters)
     return {f"cluster_{i}": int(counts[i]) for i in range(n_clusters)}
-
-
-def agreement_rate(a: np.ndarray, b: np.ndarray) -> float:
-    """Fraction of identical labels (before permutation)."""
-    return float(np.mean(a == b))
-
-
-def adjusted_rand(a: np.ndarray, b: np.ndarray) -> float:
-    return float(adjusted_rand_score(a, b))

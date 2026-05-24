@@ -7,6 +7,7 @@ from dataclasses import dataclass
 import numpy as np
 from sklearn.ensemble import IsolationForest
 from sklearn.mixture import GaussianMixture
+from sklearn.preprocessing import QuantileTransformer
 
 
 @dataclass
@@ -48,6 +49,26 @@ def fit_two_stage_gmm(
 
     labels[uncertain | outlier] = 2
     return labels, gmm
+
+
+def fit_gmm_quantile_3(
+    features: np.ndarray,
+    random_state: int = 42,
+    n_feature_cols: int = 3,
+) -> np.ndarray:
+    """GMM-3 on quantile-normalized feature columns + physics remap."""
+    z = QuantileTransformer(
+        output_distribution="normal",
+        random_state=random_state,
+    ).fit_transform(features[:, :n_feature_cols])
+    gmm = GaussianMixture(
+        n_components=3,
+        covariance_type="full",
+        n_init=20,
+        random_state=random_state,
+    )
+    raw = gmm.fit_predict(z)
+    return remap_labels_physics(raw, features)
 
 
 def fit_gmm_three(z: np.ndarray, random_state: int = 42) -> tuple[np.ndarray, GaussianMixture]:

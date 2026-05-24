@@ -4,7 +4,7 @@ import pytest
 
 from sygnal_clustering.config import DATA_PATH, N_SAMPLES
 from sygnal_clustering.data import load_waveforms
-from sygnal_clustering.pipeline_v3 import (
+from sygnal_clustering.pipeline import (
     SUBMISSION3_PATH,
     SUBMISSION3A_PATH,
     SUBMISSION3B_PATH,
@@ -18,7 +18,7 @@ from sygnal_clustering.pipeline_v3 import (
 
 @pytest.mark.skipif(not DATA_PATH.exists(), reason="dataset not present")
 def test_v3_methods_labels():
-    x = load_waveforms(DATA_PATH)
+    x = load_waveforms()
     for labels in [
         method_a_meta_col2_tercile(),
         method_b_description_gmm3(x)[0],
