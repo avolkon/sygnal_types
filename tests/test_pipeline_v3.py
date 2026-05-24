@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from sygnal_clustering.config import DATA_PATH, N_SAMPLES
+from sygnal_clustering.config import DATA_PATH, N_SAMPLES, SUBMISSION_PATH
 from sygnal_clustering.data import load_waveforms
 from sygnal_clustering.pipeline import (
     SUBMISSION3_PATH,
@@ -33,7 +33,13 @@ def test_v3_methods_labels():
 @pytest.mark.skipif(not DATA_PATH.exists(), reason="dataset not present")
 def test_run_all_v3_writes_files():
     run_all_v3()
-    for p in (SUBMISSION3A_PATH, SUBMISSION3B_PATH, SUBMISSION3C_PATH, SUBMISSION3_PATH):
+    for p in (
+        SUBMISSION3A_PATH,
+        SUBMISSION3B_PATH,
+        SUBMISSION3C_PATH,
+        SUBMISSION3_PATH,
+        SUBMISSION_PATH,
+    ):
         assert p.exists()
         df = pd.read_csv(p)
         assert list(df.columns) == ["index", "cluster"]

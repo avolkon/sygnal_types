@@ -10,7 +10,7 @@
 |-----|-----|
 | Эксперименты + EDA | [`notebook_5_v3_experience.ipynb`](notebook_5_v3_experience.ipynb) |
 | Финальная модель + скриншот Kaggle | [`notebook_6_v3_model.ipynb`](notebook_6_v3_model.ipynb) |
-| Ответ для Kaggle | [`Разработка/Эксперименты/submission3c.csv`](Разработка/Эксперименты/submission3c.csv) |
+| Ответ для Kaggle | [`Разработка/Эксперименты/submissions/submission3c.csv`](Разработка/Эксперименты/submissions/submission3c.csv) |
 | Итоговый отчёт | [`Разработка/Ревью/Итоговый_отчёт.md`](Разработка/Ревью/Итоговый_отчёт.md) |
 | Чеклист сдачи | [`Разработка/Ревью/Чеклист_сдачи.md`](Разработка/Ревью/Чеклист_сдачи.md) |
 
@@ -32,8 +32,7 @@ jupyter notebook notebook_5_v3_experience.ipynb
 | `Run200_Wave_0_1.txt` | Датасет (23 479 × 500) |
 | `notebook_5_v3_experience.ipynb` | EDA, сравнение моделей A/B/C |
 | `notebook_6_v3_model.ipynb` | **Финальный инференс** (метод C) |
-| `Разработка/Эксперименты/submission3c.csv` | Лучший submission |
-| `Разработка/Эксперименты/submission.csv` | Копия 3c (формат ТЗ) |
+| `Разработка/Эксперименты/submissions/` | Все submission CSV (3c — лучший) |
 | `src/sygnal_clustering/` | Production pipeline (`pipeline.py`, method C) + `legacy/` |
 | `requirements.txt` | Зависимости |
 
