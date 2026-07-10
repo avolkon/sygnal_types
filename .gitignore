@@ -7,4 +7,5 @@ venv/
 .ipynb_checkpoints/
 artifacts/
 *.egg-info/
-Разработка/
+Разработка/*
+!Разработка/*.md
