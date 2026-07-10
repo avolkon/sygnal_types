@@ -11,12 +11,16 @@ from sygnal_clustering.config import DATA_PATH, DROP_COLUMNS, N_FEATURES, N_SAMP
 
 
 def resolve_data_path() -> Path:
-    """Find Run200_Wave_0_1.txt (local repo, Colab /content, cwd)."""
+    """Find Run200_Wave_0_1.txt (data/, repo root legacy, Colab, cwd)."""
     candidates = [
         DATA_PATH,
+        REPO_ROOT / "data" / "Run200_Wave_0_1.txt",
         REPO_ROOT / "Run200_Wave_0_1.txt",
+        Path("data/Run200_Wave_0_1.txt"),
         Path("Run200_Wave_0_1.txt"),
+        Path("/content/data/Run200_Wave_0_1.txt"),
         Path("/content/Run200_Wave_0_1.txt"),
+        Path("/content/sygnal_types/data/Run200_Wave_0_1.txt"),
         Path("/content/sygnal_types/Run200_Wave_0_1.txt"),
     ]
     for p in candidates:

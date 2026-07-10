@@ -10,7 +10,7 @@ import numpy as np
 from sklearn.mixture import GaussianMixture
 from sklearn.preprocessing import RobustScaler
 
-from sygnal_clustering.config import ARTIFACTS_DIR, RANDOM_STATE, SUBMISSION_PATH
+from sygnal_clustering.config import ARTIFACTS_V1_DIR as ARTIFACTS_DIR, RANDOM_STATE, SUBMISSION_PATH
 from sygnal_clustering.data import load_waveforms
 from sygnal_clustering.io import write_submission
 from sygnal_clustering.legacy.features import (

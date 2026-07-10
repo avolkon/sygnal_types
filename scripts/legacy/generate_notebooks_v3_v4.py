@@ -33,7 +33,7 @@ def build_notebook_3() -> nbformat.NotebookNode:
 Альтернативный пайплайн **v2** (баланс кластеров, без Isolation Forest v1).
 
 Рекомендации: `Разработка/Рекомендации_улучшения_Kaggle.md`.  
-Выход: `submission2.csv`, артефакты: `artifacts_v2/`."""
+Выход: `submission2.csv`, артефакты: `artifacts/v2/`."""
         ),
         _md("## Этап 0. Окружение"),
         _code(

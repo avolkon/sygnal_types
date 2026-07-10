@@ -1,9 +1,0 @@
-{
-  "silhouette": 0.7109411460520815,
-  "calinski_harabasz": 16656.534348691166,
-  "davies_bouldin": 1.5299292338698098,
-  "cluster_0": 20702,
-  "cluster_1": 1329,
-  "cluster_2": 1448,
-  "method": "two_stage_gmm_robust"
-}

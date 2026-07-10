@@ -134,11 +134,13 @@ if img.exists():
 
 
 def main():
+    out_dir = ROOT / "notebooks"
+    out_dir.mkdir(parents=True, exist_ok=True)
     for fn, builder in [
         ("notebook_5_v3_experience.ipynb", build_nb5),
         ("notebook_6_v3_model.ipynb", build_nb6),
     ]:
-        p = ROOT / fn
+        p = out_dir / fn
         with open(p, "w", encoding="utf-8") as f:
             nbformat.write(builder(), f)
         print("Wrote", p)

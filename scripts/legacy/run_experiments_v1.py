@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
-from sygnal_clustering.config import ARTIFACTS_DIR, RANDOM_STATE  # noqa: E402
+from sygnal_clustering.config import ARTIFACTS_V1_DIR as ARTIFACTS_DIR, RANDOM_STATE  # noqa: E402
 from sygnal_clustering.data import load_waveforms  # noqa: E402
 from sygnal_clustering.legacy.pipeline_v1 import (  # noqa: E402
     SygnalClusteringPipeline,

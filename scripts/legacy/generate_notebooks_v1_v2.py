@@ -191,7 +191,7 @@ GMM-2 ╤А╨░╨╖╨╝╨╡╤А╤Л: **{binary_info[gmm2_sizes]}**. �
         _md("## ╨н╤В╨░╨┐ 4тАУ5. ╨б╤А╨░╨▓╨╜╨╡╨╜╨╕╨╡ ╨╝╨╛╨┤╨╡╨╗╨╡╨╣, ╨▓╤Л╨▒╨╛╤А ╤Д╨╕╨╜╨░╨╗╨░, ╨░╤А╤В╨╡╤Д╨░╨║╤В╤Л"),
         _code(
             """
-from sygnal_clustering.config import ARTIFACTS_DIR, SUBMISSION_PATH
+from sygnal_clustering.config import ARTIFACTS_V1_DIR as ARTIFACTS_DIR, SUBMISSION_PATH
 from sygnal_clustering.pipeline import SygnalClusteringPipeline, compare_methods
 
 comparison = compare_methods(X, random_state=RANDOM_STATE)
@@ -248,7 +248,7 @@ import pandas as pd
 ROOT = Path.cwd()
 sys.path.insert(0, str(ROOT / "src"))
 
-from sygnal_clustering.config import ARTIFACTS_DIR, DATA_PATH, SUBMISSION_PATH
+from sygnal_clustering.config import ARTIFACTS_V1_DIR as ARTIFACTS_DIR, DATA_PATH, SUBMISSION_PATH
 from sygnal_clustering.data import load_waveforms
 from sygnal_clustering.pipeline import SygnalClusteringPipeline
 

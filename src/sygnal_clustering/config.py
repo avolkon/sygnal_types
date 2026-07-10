@@ -6,14 +6,17 @@ N_FEATURES = 500
 DROP_COLUMNS = [0, 1, 2, 3, 504]
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = REPO_ROOT / "data"
+NOTEBOOKS_DIR = REPO_ROOT / "notebooks"
 EXPERIMENTS_DIR = REPO_ROOT / "Разработка" / "Эксперименты"
 SUBMISSIONS_DIR = EXPERIMENTS_DIR / "submissions"
 
-DATA_PATH = REPO_ROOT / "Run200_Wave_0_1.txt"
+DATA_PATH = DATA_DIR / "Run200_Wave_0_1.txt"
 
 ARTIFACTS_DIR = REPO_ROOT / "artifacts"
-ARTIFACTS_V2_DIR = REPO_ROOT / "artifacts_v2"
-ARTIFACTS_V3_DIR = REPO_ROOT / "artifacts_v3"
+ARTIFACTS_V1_DIR = ARTIFACTS_DIR / "v1"
+ARTIFACTS_V2_DIR = ARTIFACTS_DIR / "v2"
+ARTIFACTS_V3_DIR = ARTIFACTS_DIR / "v3"
 
 SUBMISSION_PATH = SUBMISSIONS_DIR / "submission.csv"
 SUBMISSION2_PATH = SUBMISSIONS_DIR / "submission2.csv"
