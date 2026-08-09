@@ -8,5 +8,5 @@ venv/
 artifacts/
 *.egg-info/
 
-# Datasets over GitHub's 100MB limit (keep locally, do not push)
-Разработка/Пример_ДЗ1/data/raw/Physical_Activity_Monitoring_unlabeled.csv
+# Example homework tree (local only; includes oversized datasets)
+Разработка/Пример_ДЗ1/
