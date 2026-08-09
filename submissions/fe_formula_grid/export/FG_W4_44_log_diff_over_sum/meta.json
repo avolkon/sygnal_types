@@ -1,0 +1,19 @@
+{
+  "name": "FG_W4_44_log_diff_over_sum",
+  "formula": "log_diff_over_sum",
+  "offset": 4,
+  "short": 44,
+  "delta": 0.003,
+  "diff_vs_champ": 154,
+  "mode_sep": 2.2761649635726435,
+  "fractions": {
+    "f0": 0.4864,
+    "f1": 0.4835,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.09536878213271642,
+  "valley": -0.7734828940748062,
+  "thr": -0.7704828940748062,
+  "n_modes": 4,
+  "proxy_score": 2.6685
+}

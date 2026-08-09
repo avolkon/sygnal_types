@@ -1,0 +1,19 @@
+{
+  "name": "FG_W4_44_long_minus_2short_over_long",
+  "formula": "long_minus_2short_over_long",
+  "offset": 4,
+  "short": 44,
+  "delta": 0.003,
+  "diff_vs_champ": 150,
+  "mode_sep": 2.2975268462719076,
+  "fractions": {
+    "f0": 0.4864,
+    "f1": 0.4835,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.09578632279371417,
+  "valley": 0.26175426388278406,
+  "thr": 0.26475426388278406,
+  "n_modes": 3,
+  "proxy_score": 2.5169
+}

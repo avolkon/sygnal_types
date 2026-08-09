@@ -1,0 +1,19 @@
+{
+  "name": "FG_W4_44_diff_over_sum",
+  "formula": "diff_over_sum",
+  "offset": 4,
+  "short": 44,
+  "delta": 0.003,
+  "diff_vs_champ": 140,
+  "mode_sep": 2.2875821602771502,
+  "fractions": {
+    "f0": 0.4868,
+    "f1": 0.4831,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.09761318632935675,
+  "valley": 0.4598066002741482,
+  "thr": 0.4628066002741482,
+  "n_modes": 4,
+  "proxy_score": 2.6595
+}

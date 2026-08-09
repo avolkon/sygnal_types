@@ -1,0 +1,19 @@
+{
+  "name": "FG_W4_50_sqrt_tail_over_long",
+  "formula": "sqrt_tail_over_long",
+  "offset": 4,
+  "short": 50,
+  "delta": 0.003,
+  "diff_vs_champ": 233,
+  "mode_sep": 2.3809711722794287,
+  "fractions": {
+    "f0": 0.4857,
+    "f1": 0.4843,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.07669207668587523,
+  "valley": 0.7915232123933305,
+  "thr": 0.7945232123933305,
+  "n_modes": 3,
+  "proxy_score": 2.5932
+}

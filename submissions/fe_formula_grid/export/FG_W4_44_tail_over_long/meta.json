@@ -1,0 +1,19 @@
+{
+  "name": "FG_W4_44_tail_over_long",
+  "formula": "tail_over_long",
+  "offset": 4,
+  "short": 44,
+  "delta": 0.003,
+  "diff_vs_champ": 128,
+  "mode_sep": 2.2934537352663233,
+  "fractions": {
+    "f0": 0.4873,
+    "f1": 0.4826,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.09578632280602163,
+  "valley": 0.6308771319405139,
+  "thr": 0.6338771319405139,
+  "n_modes": 3,
+  "proxy_score": 2.5169
+}

@@ -1,0 +1,405 @@
+{
+  "champion_score_ref": 0.85838,
+  "champion_recipe": {
+    "offset": 4,
+    "short": 42,
+    "delta": 0.003,
+    "outlier": [
+      0.015,
+      0.985
+    ]
+  },
+  "n_grid": 66,
+  "export_order": [
+    "FG_W4_42_diff_over_sum",
+    "FG_W4_50_diff_over_sum",
+    "FG_W4_44_log_diff_over_sum",
+    "FG_W4_44_diff_over_sum",
+    "FG_W4_50_sqrt_tail_over_long",
+    "FG_W4_40_diff_over_sum",
+    "FG_W4_44_tail_over_long",
+    "FG_W4_44_tail_minus_short_over_long"
+  ],
+  "top20": [
+    {
+      "name": "FG_W4_50_diff_over_sum",
+      "formula": "diff_over_sum",
+      "offset": 4,
+      "short": 50,
+      "delta": 0.003,
+      "diff_vs_champ": 206,
+      "mode_sep": 2.3672192085163126,
+      "fractions": {
+        "f0": 0.4869,
+        "f1": 0.483,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.07841501563083736,
+      "valley": 0.4598066002741482,
+      "thr": 0.4628066002741482,
+      "n_modes": 4,
+      "proxy_score": 2.7363
+    },
+    {
+      "name": "FG_W4_44_log_diff_over_sum",
+      "formula": "log_diff_over_sum",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 154,
+      "mode_sep": 2.2761649635726435,
+      "fractions": {
+        "f0": 0.4864,
+        "f1": 0.4835,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09536878213271642,
+      "valley": -0.7734828940748062,
+      "thr": -0.7704828940748062,
+      "n_modes": 4,
+      "proxy_score": 2.6685
+    },
+    {
+      "name": "FG_W4_44_diff_over_sum",
+      "formula": "diff_over_sum",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 140,
+      "mode_sep": 2.2875821602771502,
+      "fractions": {
+        "f0": 0.4868,
+        "f1": 0.4831,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09761318632935675,
+      "valley": 0.4598066002741482,
+      "thr": 0.4628066002741482,
+      "n_modes": 4,
+      "proxy_score": 2.6595
+    },
+    {
+      "name": "FG_W4_42_log_diff_over_sum",
+      "formula": "log_diff_over_sum",
+      "offset": 4,
+      "short": 42,
+      "delta": 0.003,
+      "diff_vs_champ": 135,
+      "mode_sep": 2.241817608292201,
+      "fractions": {
+        "f0": 0.4862,
+        "f1": 0.4838,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.10955737891060924,
+      "valley": -0.7734828940748062,
+      "thr": -0.7704828940748062,
+      "n_modes": 4,
+      "proxy_score": 2.6118
+    },
+    {
+      "name": "FG_W4_50_sqrt_tail_over_long",
+      "formula": "sqrt_tail_over_long",
+      "offset": 4,
+      "short": 50,
+      "delta": 0.003,
+      "diff_vs_champ": 233,
+      "mode_sep": 2.3809711722794287,
+      "fractions": {
+        "f0": 0.4857,
+        "f1": 0.4843,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.07669207668587523,
+      "valley": 0.7915232123933305,
+      "thr": 0.7945232123933305,
+      "n_modes": 3,
+      "proxy_score": 2.5932
+    },
+    {
+      "name": "FG_W4_40_diff_over_sum",
+      "formula": "diff_over_sum",
+      "offset": 4,
+      "short": 40,
+      "delta": 0.003,
+      "diff_vs_champ": 50,
+      "mode_sep": 2.2030549251334715,
+      "fractions": {
+        "f0": 0.491,
+        "f1": 0.4789,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.11745827982988885,
+      "valley": 0.4666144412476285,
+      "thr": 0.4696144412476285,
+      "n_modes": 4,
+      "proxy_score": 2.5802
+    },
+    {
+      "name": "FG_W4_40_log_diff_over_sum",
+      "formula": "log_diff_over_sum",
+      "offset": 4,
+      "short": 40,
+      "delta": 0.003,
+      "diff_vs_champ": 62,
+      "mode_sep": 2.1857901037600422,
+      "fractions": {
+        "f0": 0.4905,
+        "f1": 0.4794,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.12476808901596977,
+      "valley": -0.7595606169326508,
+      "thr": -0.7565606169326508,
+      "n_modes": 4,
+      "proxy_score": 2.5509
+    },
+    {
+      "name": "FG_W4_44_sqrt_tail_over_long",
+      "formula": "sqrt_tail_over_long",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 80,
+      "mode_sep": 2.2716720906145977,
+      "fractions": {
+        "f0": 0.4894,
+        "f1": 0.4806,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09407948093316364,
+      "valley": 0.7952501560381429,
+      "thr": 0.7982501560381429,
+      "n_modes": 3,
+      "proxy_score": 2.5237
+    },
+    {
+      "name": "FG_W4_44_tail_over_long",
+      "formula": "tail_over_long",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 128,
+      "mode_sep": 2.2934537352663233,
+      "fractions": {
+        "f0": 0.4873,
+        "f1": 0.4826,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09578632280602163,
+      "valley": 0.6308771319405139,
+      "thr": 0.6338771319405139,
+      "n_modes": 3,
+      "proxy_score": 2.5169
+    },
+    {
+      "name": "FG_W4_44_tail_minus_short_over_long",
+      "formula": "tail_minus_short_over_long",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 150,
+      "mode_sep": 2.297526846271907,
+      "fractions": {
+        "f0": 0.4864,
+        "f1": 0.4835,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09578632279371417,
+      "valley": 0.26175426388278406,
+      "thr": 0.26475426388278406,
+      "n_modes": 3,
+      "proxy_score": 2.5169
+    },
+    {
+      "name": "FG_W4_44_long_minus_2short_over_long",
+      "formula": "long_minus_2short_over_long",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 150,
+      "mode_sep": 2.2975268462719076,
+      "fractions": {
+        "f0": 0.4864,
+        "f1": 0.4835,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09578632279371417,
+      "valley": 0.26175426388278406,
+      "thr": 0.26475426388278406,
+      "n_modes": 3,
+      "proxy_score": 2.5169
+    },
+    {
+      "name": "FG_W4_44_log_tail_over_long",
+      "formula": "log_tail_over_long",
+      "offset": 4,
+      "short": 44,
+      "delta": 0.003,
+      "diff_vs_champ": 107,
+      "mode_sep": 2.258478498415662,
+      "fractions": {
+        "f0": 0.4884,
+        "f1": 0.4815,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.09582760199792593,
+      "valley": -0.45522680552862194,
+      "thr": -0.45222680552862193,
+      "n_modes": 3,
+      "proxy_score": 2.5167
+    },
+    {
+      "name": "FG_W4_42_log_tail_over_long",
+      "formula": "log_tail_over_long",
+      "offset": 4,
+      "short": 42,
+      "delta": 0.003,
+      "diff_vs_champ": 85,
+      "mode_sep": 2.224085422415568,
+      "fractions": {
+        "f0": 0.4883,
+        "f1": 0.4816,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.10275689220979793,
+      "valley": -0.45522680552862194,
+      "thr": -0.45222680552862193,
+      "n_modes": 3,
+      "proxy_score": 2.489
+    },
+    {
+      "name": "FG_W4_42_sqrt_tail_over_long",
+      "formula": "sqrt_tail_over_long",
+      "offset": 4,
+      "short": 42,
+      "delta": 0.003,
+      "diff_vs_champ": 57,
+      "mode_sep": 2.238019860650298,
+      "fractions": {
+        "f0": 0.4893,
+        "f1": 0.4806,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.10609955596234155,
+      "valley": 0.7952501560381429,
+      "thr": 0.7982501560381429,
+      "n_modes": 3,
+      "proxy_score": 2.4756
+    },
+    {
+      "name": "FG_W4_42_tail_minus_short_over_long",
+      "formula": "tail_minus_short_over_long",
+      "offset": 4,
+      "short": 42,
+      "delta": 0.003,
+      "diff_vs_champ": 34,
+      "mode_sep": 2.2447614290286992,
+      "fractions": {
+        "f0": 0.4903,
+        "f1": 0.4796,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.10831234254158942,
+      "valley": 0.27363745416265345,
+      "thr": 0.27663745416265345,
+      "n_modes": 3,
+      "proxy_score": 2.4668
+    },
+    {
+      "name": "FG_W4_42_long_minus_2short_over_long",
+      "formula": "long_minus_2short_over_long",
+      "offset": 4,
+      "short": 42,
+      "delta": 0.003,
+      "diff_vs_champ": 34,
+      "mode_sep": 2.2447614290286992,
+      "fractions": {
+        "f0": 0.4903,
+        "f1": 0.4796,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.10831234254158942,
+      "valley": 0.27363745416265345,
+      "thr": 0.27663745416265345,
+      "n_modes": 3,
+      "proxy_score": 2.4668
+    },
+    {
+      "name": "FG_W4_40_log_tail_over_long",
+      "formula": "log_tail_over_long",
+      "offset": 4,
+      "short": 40,
+      "delta": 0.003,
+      "diff_vs_champ": 115,
+      "mode_sep": 2.1861390894497355,
+      "fractions": {
+        "f0": 0.4882,
+        "f1": 0.4817,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.11689057294666633,
+      "valley": -0.45522680552862194,
+      "thr": -0.45222680552862193,
+      "n_modes": 3,
+      "proxy_score": 2.4324
+    },
+    {
+      "name": "FG_W4_40_tail_over_long",
+      "formula": "tail_over_long",
+      "offset": 4,
+      "short": 40,
+      "delta": 0.003,
+      "diff_vs_champ": 35,
+      "mode_sep": 2.2025491182364645,
+      "fractions": {
+        "f0": 0.4916,
+        "f1": 0.4783,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.11863432576935351,
+      "valley": 0.6368187270804372,
+      "thr": 0.6398187270804372,
+      "n_modes": 3,
+      "proxy_score": 2.4255
+    },
+    {
+      "name": "FG_W4_40_tail_minus_short_over_long",
+      "formula": "tail_minus_short_over_long",
+      "offset": 4,
+      "short": 40,
+      "delta": 0.003,
+      "diff_vs_champ": 67,
+      "mode_sep": 2.209058439355035,
+      "fractions": {
+        "f0": 0.4903,
+        "f1": 0.4797,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.11863432575413298,
+      "valley": 0.27363745416265345,
+      "thr": 0.27663745416265345,
+      "n_modes": 3,
+      "proxy_score": 2.4255
+    },
+    {
+      "name": "FG_W4_40_long_minus_2short_over_long",
+      "formula": "long_minus_2short_over_long",
+      "offset": 4,
+      "short": 40,
+      "delta": 0.003,
+      "diff_vs_champ": 67,
+      "mode_sep": 2.209058439355035,
+      "fractions": {
+        "f0": 0.4903,
+        "f1": 0.4797,
+        "f2": 0.0301
+      },
+      "valley_ratio": 0.11863432575413298,
+      "valley": 0.27363745416265345,
+      "thr": 0.27663745416265345,
+      "n_modes": 3,
+      "proxy_score": 2.4255
+    }
+  ]
+}
