@@ -1,0 +1,10 @@
+{
+  "note": "weighted vote: PSD counted twice; class2=q015-985",
+  "diff_vs_champ": 837,
+  "fractions": {
+    "f0": 0.5274,
+    "f1": 0.4425,
+    "f2": 0.0301
+  },
+  "disagree_rate": 0.820988968865795
+}

@@ -1,0 +1,66 @@
+{
+  "champion_score_ref": 0.85838,
+  "upload_order": [
+    "ANGEL_compose_maj",
+    "ANGEL_compose_psd2x",
+    "ANGEL_compose_disagree2",
+    "ANGEL_compose_disagree2_or_out"
+  ],
+  "candidates": [
+    {
+      "name": "ANGEL_CHAMP",
+      "diff_vs_champ": 0,
+      "fractions": {
+        "f0": 0.4918,
+        "f1": 0.4782,
+        "f2": 0.0301
+      },
+      "note": "PSD-only champion reference",
+      "disagree_rate": 0.820988968865795
+    },
+    {
+      "name": "ANGEL_compose_maj",
+      "diff_vs_champ": 970,
+      "fractions": {
+        "f0": 0.5217,
+        "f1": 0.4482,
+        "f2": 0.0301
+      },
+      "note": "Description vote PSD+decay+PCA majority; class2=q015-985",
+      "disagree_rate": 0.820988968865795
+    },
+    {
+      "name": "ANGEL_compose_disagree2",
+      "diff_vs_champ": 18972,
+      "fractions": {
+        "f0": 0.1567,
+        "f1": 0.0223,
+        "f2": 0.821
+      },
+      "note": "majority 0/1; non-unanimous vote -> 2",
+      "disagree_rate": 0.820988968865795
+    },
+    {
+      "name": "ANGEL_compose_disagree2_or_out",
+      "diff_vs_champ": 18771,
+      "fractions": {
+        "f0": 0.1482,
+        "f1": 0.0223,
+        "f2": 0.8295
+      },
+      "note": "disagree->2 OR PSD outlier q015-985",
+      "disagree_rate": 0.820988968865795
+    },
+    {
+      "name": "ANGEL_compose_psd2x",
+      "diff_vs_champ": 837,
+      "fractions": {
+        "f0": 0.5274,
+        "f1": 0.4425,
+        "f2": 0.0301
+      },
+      "note": "weighted vote: PSD counted twice; class2=q015-985",
+      "disagree_rate": 0.820988968865795
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "note": "disagree->2 OR PSD outlier q015-985",
+  "diff_vs_champ": 18771,
+  "fractions": {
+    "f0": 0.1482,
+    "f1": 0.0223,
+    "f2": 0.8295
+  },
+  "disagree_rate": 0.820988968865795
+}

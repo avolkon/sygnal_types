@@ -1,0 +1,10 @@
+{
+  "note": "majority 0/1; non-unanimous vote -> 2",
+  "diff_vs_champ": 18972,
+  "fractions": {
+    "f0": 0.1567,
+    "f1": 0.0223,
+    "f2": 0.821
+  },
+  "disagree_rate": 0.820988968865795
+}
