@@ -2,29 +2,17 @@
 
 Чемпион main: **0.85838** — `(L−S)/L`, окна (4,42), valley+0.003, q015–985.
 
-## Стратегия
-- Крупная локальная сетка формул × окон (без массовых upload).
-- Локальный proxy: `valley_ratio`, разделение мод, умеренный `diff_vs_champ`.
-- На Kaggle — только top-8 из `submissions/fe_formula_grid/export/`.
+## LB (ветка закрыта)
 
-## Первый upload (приоритет)
+| Вариант | Score | Δ vs champ |
+|---|---:|---:|
+| champ (main) | **0.85838** | — |
+| `FG_W4_42_diff_over_sum` | 0.85838 | 0 |
+| `FG_W4_44_log_diff_over_sum` | 0.85829 | −0.00009 |
+| `FG_W4_50_diff_over_sum` | 0.85804 | −0.00034 |
+| `FG_W4_50_sqrt_tail_over_long` | 0.85808 | −0.00030 |
 
-`submissions\fe_formula_grid\export\FG_W4_42_diff_over_sum\submission.csv`
+## Вердикт
 
-| Поле | Значение |
-|---|---|
-| formula | `diff_over_sum` |
-| windows | (4, 42) |
-| diff vs champ | 16 |
-| valley_ratio | 0.1077 |
-| proxy_score | 1.1192 |
-
-Ориентир: **> 0.85838**. Если ≤ — следующий из `export_order` в `grid_summary.json`.
-
-## LB
-
-| Вариант | Score |
-|---|---:|
-| champ (main) | **0.85838** |
-| ALT_f_diff_over_sum (старый alt) | *(ожидает upload)* |
-| `FG_W4_42_diff_over_sum` | *(ожидает upload)* |
+Смена формулы PSD (`diff/sum`, `log`, `sqrt`) **не бьёт** `(L−S)/L` на чемпионских окнах.  
+Ветка `exp/alt-formula-gate` → **stop**. Рабочий эталон остаётся на `main`: **0.85838**.
