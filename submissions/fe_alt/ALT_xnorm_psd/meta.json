@@ -1,0 +1,13 @@
+{
+  "note": "PSD computed on x_norm",
+  "diff_vs_champ": 0,
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.1083123425554292,
+  "valley": 0.6368187269283132,
+  "thr": 0.6398187269283132,
+  "n_modes": 3
+}

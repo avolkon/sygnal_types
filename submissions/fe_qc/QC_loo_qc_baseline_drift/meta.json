@@ -1,0 +1,10 @@
+{
+  "note": "OR without qc_baseline_drift",
+  "rate": 0.924315345628008,
+  "dropped": "qc_baseline_drift",
+  "fractions": {
+    "f0": 0.048,
+    "f1": 0.0277,
+    "f2": 0.9243
+  }
+}

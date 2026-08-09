@@ -1,0 +1,10 @@
+{
+  "note": "OR without qc_no_3sigma_hit",
+  "rate": 0.924315345628008,
+  "dropped": "qc_no_3sigma_hit",
+  "fractions": {
+    "f0": 0.048,
+    "f1": 0.0277,
+    "f2": 0.9243
+  }
+}

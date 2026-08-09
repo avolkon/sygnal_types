@@ -1,0 +1,9 @@
+{
+  "note": "outlier->2 only if saturated",
+  "diff_vs_champ": 34,
+  "fractions": {
+    "f0": 0.4927,
+    "f1": 0.4787,
+    "f2": 0.0286
+  }
+}

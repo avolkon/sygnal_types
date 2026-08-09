@@ -1,0 +1,14 @@
+{
+  "gate_ok": true,
+  "psd_windows": [
+    5,
+    50
+  ],
+  "candidates": [
+    "A_gmm2_xclust_qc",
+    "B_gmm2_xclust_overlap_qc",
+    "C_gmm2_psd1d_qc",
+    "D_gmm2_xclust_abs_unc_qc",
+    "E_gmm2_bestbic_qc"
+  ]
+}

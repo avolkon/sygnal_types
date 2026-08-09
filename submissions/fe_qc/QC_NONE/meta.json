@@ -1,0 +1,9 @@
+{
+  "note": "no QC, pure PSD thr",
+  "rate": 0.0,
+  "fractions": {
+    "f0": 0.5068,
+    "f1": 0.4932,
+    "f2": 0.0
+  }
+}

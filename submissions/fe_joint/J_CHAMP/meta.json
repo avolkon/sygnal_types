@@ -1,0 +1,16 @@
+{
+  "note": "champion copy",
+  "offset": 4,
+  "short": 42,
+  "delta": 0.003,
+  "out": [
+    0.015,
+    0.985
+  ],
+  "diff_vs_champ": 0,
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  }
+}

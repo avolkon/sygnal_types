@@ -1,0 +1,9 @@
+{
+  "note": "SNR-quartile deltas=[0.003, 0.003, 0.003, 0.003]",
+  "diff_vs_champ": 0,
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  }
+}

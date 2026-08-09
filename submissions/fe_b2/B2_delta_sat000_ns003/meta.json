@@ -1,0 +1,9 @@
+{
+  "note": "thr sat=0.6368 nonsat=0.6398",
+  "diff_vs_champ": 65,
+  "fractions": {
+    "f0": 0.489,
+    "f1": 0.4809,
+    "f2": 0.0301
+  }
+}

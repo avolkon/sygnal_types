@@ -1,0 +1,8 @@
+{
+  "note": "absolute unc threshold tau=q97(unc) OR QC (not top-q% label policy)",
+  "tau": 0.2919614428050945,
+  "unc_gt_tau_rate": 0.03002683248860684,
+  "f0": 0.4171,
+  "f1": 0.5251,
+  "f2": 0.0578
+}

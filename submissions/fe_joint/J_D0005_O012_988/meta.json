@@ -1,0 +1,16 @@
+{
+  "note": "delta\u00d7outlier on (4,42)",
+  "offset": 4,
+  "short": 42,
+  "delta": 0.005,
+  "out": [
+    0.012,
+    0.988
+  ],
+  "diff_vs_champ": 184,
+  "fractions": {
+    "f0": 0.4966,
+    "f1": 0.4794,
+    "f2": 0.024
+  }
+}

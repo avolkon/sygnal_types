@@ -1,0 +1,10 @@
+{
+  "note": "only qc_baseline_drift -> 2",
+  "rate": 0.0,
+  "flag": "qc_baseline_drift",
+  "fractions": {
+    "f0": 0.5068,
+    "f1": 0.4932,
+    "f2": 0.0
+  }
+}

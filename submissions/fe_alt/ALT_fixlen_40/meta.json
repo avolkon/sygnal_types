@@ -1,0 +1,13 @@
+{
+  "note": "fixed ROI length=40",
+  "diff_vs_champ": 1342,
+  "fractions": {
+    "f0": 0.5101,
+    "f1": 0.4599,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.10516292846819175,
+  "valley": 0.60966705275702,
+  "thr": 0.61266705275702,
+  "n_modes": 7
+}

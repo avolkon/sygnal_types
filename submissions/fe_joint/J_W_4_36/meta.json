@@ -1,0 +1,18 @@
+{
+  "note": "windows retune under champ outlier/delta",
+  "offset": 4,
+  "short": 36,
+  "delta": 0.003,
+  "out": [
+    0.015,
+    0.985
+  ],
+  "valley_ratio": 0.15861271674254251,
+  "valley": 0.6368187270804372,
+  "diff_vs_champ": 139,
+  "fractions": {
+    "f0": 0.4909,
+    "f1": 0.4791,
+    "f2": 0.0301
+  }
+}

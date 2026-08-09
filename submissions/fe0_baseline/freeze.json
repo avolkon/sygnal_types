@@ -1,0 +1,37 @@
+{
+  "stage": "FE-0",
+  "data_path": "C:\\Users\\68788\\Documents\\GitHub\\pymephi\\sygnal_types\\data\\Run200_Wave_0_1.txt",
+  "sha256": "87626b55d2b8659d7dc4296649fe49e7d6da36ca72396659de1ef1d1b54d33d9",
+  "n_samples": 23479,
+  "POLARITY": "negative",
+  "PSD_OFFSET": 5,
+  "PSD_SHORT": 50,
+  "valley_ratio_psd": 0.06034878383831908,
+  "valley_ratio_decay": 0.0,
+  "GATE_OK": true,
+  "X_clust_cols": [
+    "psd_calibrated",
+    "decay_time",
+    "charge_roi",
+    "tail_ratio"
+  ],
+  "pca_evr_live": [
+    0.6102552205364731,
+    0.19923493948291016,
+    0.10512529904895145
+  ],
+  "candidate_class2_rate": 0.02913241620171217,
+  "baseline_model": "GMM-2 + uncertain_fraction=0.05 on features[:,:4]=peak,charge,psd,decay",
+  "fractions": {
+    "f0": 0.5669,
+    "f1": 0.3831,
+    "f2": 0.05
+  },
+  "counts": {
+    "0": 13311,
+    "1": 8995,
+    "2": 1173
+  },
+  "historical_kaggle_note": "pre-prep notebook reported accuracy 0.45968 with same recipe on old features",
+  "submission": "submissions\\fe0_baseline\\submission.csv"
+}

@@ -1,0 +1,10 @@
+{
+  "note": "only qc_saturated -> 2",
+  "rate": 0.9229950168235445,
+  "flag": "qc_saturated",
+  "fractions": {
+    "f0": 0.0489,
+    "f1": 0.0281,
+    "f2": 0.923
+  }
+}

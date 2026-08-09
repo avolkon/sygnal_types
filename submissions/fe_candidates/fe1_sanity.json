@@ -1,0 +1,16 @@
+{
+  "psd_windows": [
+    5,
+    50
+  ],
+  "valley_ratio_psd": 0.06034878383831908,
+  "GATE_OK": true,
+  "feature_std": {
+    "psd": 0.08534293208971025,
+    "decay": 0.6160303806579109,
+    "charge": 12013.853895232402,
+    "tail": 0.054065471138382094
+  },
+  "corr_psd_charge": 0.017669578661947634,
+  "legacy_leak_note": "Model5 in notebook uses features[:,:4] not X_clust \u2014 FE candidates use X_clust / PSD"
+}

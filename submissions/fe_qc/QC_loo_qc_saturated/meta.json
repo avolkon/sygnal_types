@@ -1,0 +1,10 @@
+{
+  "note": "OR without qc_saturated",
+  "rate": 0.028791686187657057,
+  "dropped": "qc_saturated",
+  "fractions": {
+    "f0": 0.4886,
+    "f1": 0.4826,
+    "f2": 0.0288
+  }
+}

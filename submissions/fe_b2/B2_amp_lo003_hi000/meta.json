@@ -1,0 +1,9 @@
+{
+  "note": "amp split med=812.5",
+  "diff_vs_champ": 8,
+  "fractions": {
+    "f0": 0.4914,
+    "f1": 0.4785,
+    "f2": 0.0301
+  }
+}

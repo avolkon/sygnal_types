@@ -1,0 +1,9 @@
+{
+  "note": "roi split med=30.0",
+  "diff_vs_champ": 62,
+  "fractions": {
+    "f0": 0.4891,
+    "f1": 0.4808,
+    "f2": 0.0301
+  }
+}

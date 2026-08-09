@@ -1,0 +1,9 @@
+{
+  "note": "nonsat: pure thr; sat: champ+outlier",
+  "diff_vs_champ": 34,
+  "fractions": {
+    "f0": 0.4927,
+    "f1": 0.4787,
+    "f2": 0.0286
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "note": "absolute thr=0.658",
+  "offset": 4,
+  "short": 42,
+  "thr": 0.658,
+  "diff_vs_champ": 776,
+  "fractions": {
+    "f0": 0.5248,
+    "f1": 0.4451,
+    "f2": 0.0301
+  }
+}

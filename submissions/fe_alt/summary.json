@@ -1,0 +1,15 @@
+{
+  "upload_order": [
+    "ALT_roifrac_40",
+    "ALT_roifrac_10",
+    "ALT_roifrac_30",
+    "ALT_roifrac_20",
+    "ALT_nsig_50",
+    "ALT_nsig_20",
+    "ALT_nsig_40",
+    "ALT_nsig_35",
+    "ALT_nsig_25",
+    "ALT_fixlen_120"
+  ],
+  "champion_ref": 0.85838
+}

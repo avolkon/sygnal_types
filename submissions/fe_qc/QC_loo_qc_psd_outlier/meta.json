@@ -1,0 +1,10 @@
+{
+  "note": "OR without qc_psd_outlier",
+  "rate": 0.923548703096384,
+  "dropped": "qc_psd_outlier",
+  "fractions": {
+    "f0": 0.0484,
+    "f1": 0.0281,
+    "f2": 0.9235
+  }
+}

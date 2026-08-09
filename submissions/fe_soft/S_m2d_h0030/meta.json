@@ -1,0 +1,10 @@
+{
+  "half": 0.03,
+  "soft_rate": 0.14204182460922526,
+  "note": "soft: nearest MEAN (decay,tail)",
+  "fractions": {
+    "f0": 0.4798,
+    "f1": 0.4914,
+    "f2": 0.0288
+  }
+}

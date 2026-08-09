@@ -1,0 +1,13 @@
+{
+  "note": "formula variant",
+  "diff_vs_champ": 21783,
+  "fractions": {
+    "f0": 0.5265,
+    "f1": 0.4434,
+    "f2": 0.0301
+  },
+  "valley_ratio": 0.416084457921797,
+  "valley": 5.336889327122775,
+  "thr": 5.339889327122775,
+  "n_modes": 5
+}

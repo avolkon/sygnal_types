@@ -1,0 +1,10 @@
+{
+  "note": "OR without qc_multi_peak",
+  "rate": 0.9238468418586823,
+  "dropped": "qc_multi_peak",
+  "fractions": {
+    "f0": 0.0484,
+    "f1": 0.0277,
+    "f2": 0.9238
+  }
+}

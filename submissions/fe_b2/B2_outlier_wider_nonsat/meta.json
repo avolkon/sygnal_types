@@ -1,0 +1,9 @@
+{
+  "note": "nonsat outlier 5-95; sat 1.5-98.5",
+  "diff_vs_champ": 168,
+  "fractions": {
+    "f0": 0.489,
+    "f1": 0.4754,
+    "f2": 0.0355
+  }
+}

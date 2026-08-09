@@ -1,0 +1,10 @@
+{
+  "note": "ALT formula short/long median split + q015-985",
+  "formula": "short/long",
+  "diff_vs_champ": 22614,
+  "fractions": {
+    "f0": 0.4849,
+    "f1": 0.485,
+    "f2": 0.0301
+  }
+}

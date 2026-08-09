@@ -1,0 +1,9 @@
+{
+  "note": "qc_multi_peak+qc_decay_hang+qc_roi_short+qc_roi_long",
+  "rate": 0.009923761659355169,
+  "fractions": {
+    "f0": 0.4975,
+    "f1": 0.4926,
+    "f2": 0.0099
+  }
+}

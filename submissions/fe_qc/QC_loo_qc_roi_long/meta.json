@@ -1,0 +1,10 @@
+{
+  "note": "OR without qc_roi_long",
+  "rate": 0.924315345628008,
+  "dropped": "qc_roi_long",
+  "fractions": {
+    "f0": 0.048,
+    "f1": 0.0277,
+    "f2": 0.9243
+  }
+}

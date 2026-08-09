@@ -1,0 +1,9 @@
+{
+  "note": "all nonsaturated -> class2",
+  "diff_vs_champ": 1774,
+  "fractions": {
+    "f0": 0.4437,
+    "f1": 0.4507,
+    "f2": 0.1056
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "soft_rate": 0.0,
+  "note": "champion hard thr, no soft",
+  "half": 0,
+  "fractions": {
+    "f0": 0.4886,
+    "f1": 0.4826,
+    "f2": 0.0288
+  }
+}
