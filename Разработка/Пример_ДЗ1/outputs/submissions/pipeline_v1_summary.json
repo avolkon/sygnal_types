@@ -1,0 +1,46 @@
+{
+  "chosen_pipeline": "row_pca_kmeans",
+  "row_baseline": {
+    "k": 6,
+    "algorithm": "kmeans",
+    "pca_components": 11,
+    "silhouette": 0.5418114066123962,
+    "score": 117.40138476910803,
+    "distribution": {
+      "1": 433390,
+      "2": 3284,
+      "3": 19181,
+      "4": 37125,
+      "5": 16190,
+      "6": 25431
+    }
+  },
+  "segment_pipeline": {
+    "config": {
+      "window_size": 250,
+      "step_size": 125,
+      "pca_variance": 0.9,
+      "n_clusters": 10,
+      "algorithm": "kmeans",
+      "space": "B",
+      "corr_threshold": 0.95,
+      "top_loading_features": 250
+    },
+    "silhouette": 0.47791310330198933,
+    "score": 2.3678897628144546,
+    "distribution": {
+      "1": 41625,
+      "2": 70976,
+      "3": 69875,
+      "4": 50000,
+      "5": 63625,
+      "6": 20000,
+      "7": 26500,
+      "8": 62500,
+      "9": 59750,
+      "10": 69750
+    }
+  },
+  "submission_path": "C:\\Users\\68788\\Documents\\GitHub\\pymephi\\avo_ml_unsupervised_dz1\\outputs\\submissions\\submission_v1.csv",
+  "n_rows": 534601
+}

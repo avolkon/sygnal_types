@@ -7,5 +7,6 @@ venv/
 .ipynb_checkpoints/
 artifacts/
 *.egg-info/
-Разработка/*
-!Разработка/*.md
+
+# Datasets over GitHub's 100MB limit (keep locally, do not push)
+Разработка/Пример_ДЗ1/data/raw/Physical_Activity_Monitoring_unlabeled.csv
