@@ -1,0 +1,143 @@
+{
+  "new_champion_ref": 0.87001,
+  "base": "P14_2_c2_lo_only",
+  "upload_order": [
+    "P14_2b_qlo_0020",
+    "P14_2b_qlo_0010",
+    "P14_2b_qlo_0025",
+    "P14_2b_qlo_0012",
+    "P14_2b_qlo_0018",
+    "P14_2b_qlo_0030",
+    "P14_2b_qlo_0005"
+  ],
+  "candidates": [
+    {
+      "name": "P14_2b_qlo_0005",
+      "note": "lo-only class2 at q=0.005; hi tail never rejected",
+      "q_lo": 0.005,
+      "qlo_value": 0.4621389947982679,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.5018,
+        "f1": 0.4932,
+        "f2": 0.005
+      },
+      "diff_vs_P14_2": 235,
+      "n_class2": 118,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0010",
+      "note": "lo-only class2 at q=0.01; hi tail never rejected",
+      "q_lo": 0.01,
+      "qlo_value": 0.4727184140252653,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4968,
+        "f1": 0.4932,
+        "f2": 0.01
+      },
+      "diff_vs_P14_2": 118,
+      "n_class2": 235,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0012",
+      "note": "lo-only class2 at q=0.012; hi tail never rejected",
+      "q_lo": 0.012,
+      "qlo_value": 0.475307259371099,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4948,
+        "f1": 0.4932,
+        "f2": 0.012
+      },
+      "diff_vs_P14_2": 71,
+      "n_class2": 282,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0015",
+      "note": "lo-only class2 at q=0.015; hi tail never rejected",
+      "q_lo": 0.015,
+      "qlo_value": 0.47838671991316434,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4918,
+        "f1": 0.4932,
+        "f2": 0.015
+      },
+      "diff_vs_P14_2": 0,
+      "n_class2": 353,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0018",
+      "note": "lo-only class2 at q=0.018; hi tail never rejected",
+      "q_lo": 0.018,
+      "qlo_value": 0.4814147906242305,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4888,
+        "f1": 0.4932,
+        "f2": 0.018
+      },
+      "diff_vs_P14_2": 70,
+      "n_class2": 423,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0020",
+      "note": "lo-only class2 at q=0.02; hi tail never rejected",
+      "q_lo": 0.02,
+      "qlo_value": 0.4835893582784177,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4868,
+        "f1": 0.4932,
+        "f2": 0.02
+      },
+      "diff_vs_P14_2": 117,
+      "n_class2": 470,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0025",
+      "note": "lo-only class2 at q=0.025; hi tail never rejected",
+      "q_lo": 0.025,
+      "qlo_value": 0.48683403028498634,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4818,
+        "f1": 0.4932,
+        "f2": 0.025
+      },
+      "diff_vs_P14_2": 234,
+      "n_class2": 587,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    },
+    {
+      "name": "P14_2b_qlo_0030",
+      "note": "lo-only class2 at q=0.03; hi tail never rejected",
+      "q_lo": 0.03,
+      "qlo_value": 0.48960489378780764,
+      "thr": 0.6398187270804372,
+      "fractions": {
+        "f0": 0.4768,
+        "f1": 0.4932,
+        "f2": 0.03
+      },
+      "diff_vs_P14_2": 352,
+      "n_class2": 705,
+      "champion_score_ref": 0.87001,
+      "base_q_lo": 0.015
+    }
+  ]
+}

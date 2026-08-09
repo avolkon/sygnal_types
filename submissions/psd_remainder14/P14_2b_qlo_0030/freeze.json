@@ -1,0 +1,24 @@
+{
+  "name": "P14_2b_qlo_0030",
+  "lb_score": 0.88023,
+  "previous_champion_score": 0.87725,
+  "delta": 0.00298,
+  "contract": {
+    "axis": "psd",
+    "formula": "(L-S)/L",
+    "window": [
+      4,
+      42
+    ],
+    "thr": "valley+0.003",
+    "class2": "psd < q3% only (no high-tail reject)",
+    "polarity": "class0 = lower mean psd"
+  },
+  "fractions": {
+    "f0": 0.4768,
+    "f1": 0.4932,
+    "f2": 0.03
+  },
+  "n_class2": 705,
+  "lesson": "Widen low-only reject 2.5% -> 3% gains +0.00298; marginal step slightly smaller"
+}

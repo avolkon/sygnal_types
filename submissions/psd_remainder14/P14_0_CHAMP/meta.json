@@ -1,0 +1,13 @@
+{
+  "note": "PSD champion freeze (4,42) valley+0.003 q015-985",
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  },
+  "diff_vs_champ": 0,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.85838
+}

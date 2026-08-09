@@ -1,0 +1,80 @@
+{
+  "champion_score_ref": 0.85838,
+  "remainder_n_est": 3325,
+  "map": "submissions\\psd_remainder14\\remainder_map.json",
+  "upload_order": [
+    "P14_1_no_class2",
+    "P14_2_c2_lo_only",
+    "P14_4_edge200_to2",
+    "P14_3_c2_hi_only",
+    "P14_5_edge100_flip"
+  ],
+  "stop_rule": "If P14_1 and P14_2 and P14_4 all <= champ without +diagnostic, remainder is mostly irreducible on this PSD contract; stop micro-surgery.",
+  "candidates": [
+    {
+      "name": "P14_1_no_class2",
+      "diff_vs_champ": 706,
+      "n_to_2": 0,
+      "n_from_2": 706,
+      "n_flip01": 0,
+      "fractions": {
+        "f0": 0.5068,
+        "f1": 0.4932,
+        "f2": 0.0
+      },
+      "note": "class2 cleared -> 0/1 by thr; tests if reject helps LB"
+    },
+    {
+      "name": "P14_2_c2_lo_only",
+      "diff_vs_champ": 353,
+      "n_to_2": 0,
+      "n_from_2": 353,
+      "n_flip01": 0,
+      "fractions": {
+        "f0": 0.4918,
+        "f1": 0.4932,
+        "f2": 0.015
+      },
+      "note": "reject only PSD < q1.5%; hi tail kept as 0/1"
+    },
+    {
+      "name": "P14_3_c2_hi_only",
+      "diff_vs_champ": 353,
+      "n_to_2": 0,
+      "n_from_2": 353,
+      "n_flip01": 0,
+      "fractions": {
+        "f0": 0.5068,
+        "f1": 0.4782,
+        "f2": 0.015
+      },
+      "note": "reject only PSD > q98.5%; lo tail kept as 0/1"
+    },
+    {
+      "name": "P14_4_edge200_to2",
+      "diff_vs_champ": 200,
+      "n_to_2": 200,
+      "n_from_2": 0,
+      "n_flip01": 0,
+      "fractions": {
+        "f0": 0.4879,
+        "f1": 0.4735,
+        "f2": 0.0386
+      },
+      "note": "200 nearest |psd-thr| among 0/1 -> 2 (geometry isthmus, not SNR)"
+    },
+    {
+      "name": "P14_5_edge100_flip",
+      "diff_vs_champ": 100,
+      "n_to_2": 0,
+      "n_from_2": 0,
+      "n_flip01": 100,
+      "fractions": {
+        "f0": 0.492,
+        "f1": 0.4779,
+        "f2": 0.0301
+      },
+      "note": "100 nearest |psd-thr| flip 0<->1; far+class2 frozen"
+    }
+  ]
+}

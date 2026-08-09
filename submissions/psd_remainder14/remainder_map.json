@@ -1,0 +1,32 @@
+{
+  "champion_score_ref": 0.85838,
+  "remainder_frac": 0.14161999999999997,
+  "remainder_n_est": 3325,
+  "class2_n": 706,
+  "class2_frac_of_remainder_if_all_wrong": 0.212,
+  "zero_one_error_budget_est": 2619,
+  "note": "Even if EVERY class2 is wrong vs GT, class2 explains at most ~21% of the 14%. Dominant remainder is 0\u21941. Soft band |psd-thr|<0.02 holds ~soft events as candidate locus.",
+  "regions": {
+    "all_01": 22773,
+    "soft_0.02": 1379,
+    "soft_0.01": 472,
+    "soft_0.005": 221,
+    "far_0.05": 13670,
+    "class2_lo": 353,
+    "class2_hi": 353
+  },
+  "champ_meta": {
+    "valley_ratio": 0.10831234255542994,
+    "valley": 0.6368187270804372,
+    "thr": 0.6398187270804372,
+    "qlo": 0.47838671991316434,
+    "qhi": 0.7683496648036692,
+    "mode1": 0.53581160970174,
+    "mode2": 0.6784098930599007
+  },
+  "fractions_champ": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  }
+}

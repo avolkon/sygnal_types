@@ -1,0 +1,17 @@
+{
+  "note": "lo-only class2 at q=0.05",
+  "q_lo": 0.05,
+  "qlo_value": 0.4983647604755967,
+  "thr": 0.6398187270804372,
+  "fractions": {
+    "f0": 0.4568,
+    "f1": 0.4932,
+    "f2": 0.05
+  },
+  "diff_vs_q0025": 587,
+  "n_class2": 1174,
+  "champion_score_ref": 0.87725,
+  "lb_score": 0.88922,
+  "previous_champion_score": 0.88453,
+  "delta": 0.00469
+}

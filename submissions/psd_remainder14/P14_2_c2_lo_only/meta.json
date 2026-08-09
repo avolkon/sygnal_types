@@ -1,0 +1,15 @@
+{
+  "note": "reject only PSD < q1.5%; hi tail kept as 0/1",
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4932,
+    "f2": 0.015
+  },
+  "diff_vs_champ": 353,
+  "n_to_2": 0,
+  "n_from_2": 353,
+  "n_flip01": 0,
+  "champion_score_ref": 0.85838,
+  "hypothesis": "H_c2_asymmetric_lo",
+  "upload_priority": 2
+}

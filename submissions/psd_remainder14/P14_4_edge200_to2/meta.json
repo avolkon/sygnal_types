@@ -1,0 +1,17 @@
+{
+  "note": "200 nearest |psd-thr| among 0/1 -> 2 (geometry isthmus, not SNR)",
+  "fractions": {
+    "f0": 0.4879,
+    "f1": 0.4735,
+    "f2": 0.0386
+  },
+  "diff_vs_champ": 200,
+  "n_to_2": 200,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.85838,
+  "hypothesis": "H_valley_overlap_to2",
+  "upload_priority": 4,
+  "edge_dist_max": 0.004555816037918881,
+  "edge_n": 200
+}

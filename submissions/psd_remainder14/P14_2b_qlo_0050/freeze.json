@@ -1,0 +1,24 @@
+{
+  "name": "P14_2b_qlo_0050",
+  "lb_score": 0.88922,
+  "previous_champion_score": 0.88453,
+  "delta": 0.00469,
+  "contract": {
+    "axis": "psd",
+    "formula": "(L-S)/L",
+    "window": [
+      4,
+      42
+    ],
+    "thr": "valley+0.003",
+    "class2": "psd < q5% only (no high-tail reject)",
+    "polarity": "class0 = lower mean psd"
+  },
+  "fractions": {
+    "f0": 0.4568,
+    "f1": 0.4932,
+    "f2": 0.05
+  },
+  "n_class2": 1174,
+  "lesson": "Widen 4% -> 5% +0.00469; step LARGER again - not plateau yet"
+}

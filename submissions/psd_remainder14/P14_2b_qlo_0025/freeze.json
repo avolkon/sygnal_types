@@ -1,0 +1,23 @@
+{
+  "name": "P14_2b_qlo_0025",
+  "lb_score": 0.87725,
+  "previous_champion_score": 0.87388,
+  "delta": 0.00337,
+  "contract": {
+    "axis": "psd",
+    "formula": "(L-S)/L",
+    "window": [
+      4,
+      42
+    ],
+    "thr": "valley+0.003",
+    "class2": "psd < q2.5% only (no high-tail reject)",
+    "polarity": "class0 = lower mean psd"
+  },
+  "fractions": {
+    "f0": 0.4818,
+    "f1": 0.4932,
+    "f2": 0.025
+  },
+  "lesson": "Widen low-only reject 2% -> 2.5% gains +0.00337; trend continues"
+}

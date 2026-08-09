@@ -1,0 +1,20 @@
+{
+  "name": "P14_2_c2_lo_only",
+  "lb_score": 0.87001,
+  "previous_champion_score": 0.85838,
+  "delta": 0.01163,
+  "contract": {
+    "axis": "psd",
+    "formula": "(L-S)/L",
+    "window": [4, 42],
+    "thr": "valley+0.003",
+    "class2": "psd < q1.5% only (no high-tail reject)",
+    "polarity": "class0 = lower mean psd"
+  },
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4932,
+    "f2": 0.015
+  },
+  "lesson": "Asymmetric reject: low-PSD tail -> 2; high-PSD tail is valid class 1."
+}

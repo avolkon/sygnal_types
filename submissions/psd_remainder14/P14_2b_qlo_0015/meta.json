@@ -1,0 +1,15 @@
+{
+  "note": "lo-only class2 at q=0.015; hi tail never rejected",
+  "q_lo": 0.015,
+  "qlo_value": 0.47838671991316434,
+  "thr": 0.6398187270804372,
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4932,
+    "f2": 0.015
+  },
+  "diff_vs_P14_2": 0,
+  "n_class2": 353,
+  "champion_score_ref": 0.87001,
+  "base_q_lo": 0.015
+}

@@ -1,0 +1,17 @@
+{
+  "note": "100 nearest |psd-thr| flip 0<->1; far+class2 frozen",
+  "fractions": {
+    "f0": 0.492,
+    "f1": 0.4779,
+    "f2": 0.0301
+  },
+  "diff_vs_champ": 100,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 100,
+  "champion_score_ref": 0.85838,
+  "hypothesis": "H_valley_local_polarity",
+  "upload_priority": 5,
+  "edge_dist_max": 0.002267122556014134,
+  "edge_n": 100
+}
