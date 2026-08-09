@@ -1,0 +1,68 @@
+{
+  "champion_score_ref": 0.85838,
+  "upload_order": [
+    "ISTH_weak_to2",
+    "ISTH_narrow_weak_to2",
+    "ISTH_weak1_to0",
+    "ISTH_weak2_mid_tailshape",
+    "ISTH_soft_roi_split"
+  ],
+  "map": "submissions\\angel_isthmus\\isthmus_map.json",
+  "candidates": [
+    {
+      "name": "ISTH_weak_to2",
+      "diff_vs_champ": 345,
+      "mutated_in_soft": 345,
+      "fractions": {
+        "f0": 0.4845,
+        "f1": 0.4708,
+        "f2": 0.0448
+      },
+      "note": "soft&snr<=q25(81.71) -> 2; else champ"
+    },
+    {
+      "name": "ISTH_weak1_to0",
+      "diff_vs_champ": 174,
+      "mutated_in_soft": 174,
+      "fractions": {
+        "f0": 0.4992,
+        "f1": 0.4708,
+        "f2": 0.0301
+      },
+      "note": "soft weak & label1 -> 0 (noise-inflated PSD hyp)"
+    },
+    {
+      "name": "ISTH_weak2_mid_tailshape",
+      "diff_vs_champ": 628,
+      "mutated_in_soft": 628,
+      "fractions": {
+        "f0": 0.4955,
+        "f1": 0.4597,
+        "f2": 0.0448
+      },
+      "note": "weak->2; mid-soft re-label by norm tail[8:24] median split"
+    },
+    {
+      "name": "ISTH_soft_roi_split",
+      "diff_vs_champ": 609,
+      "mutated_in_soft": 609,
+      "fractions": {
+        "f0": 0.5026,
+        "f1": 0.4673,
+        "f2": 0.0301
+      },
+      "note": "soft_01 re-split by roi_len med=23.0; far=champ"
+    },
+    {
+      "name": "ISTH_narrow_weak_to2",
+      "diff_vs_champ": 118,
+      "mutated_in_soft": 118,
+      "fractions": {
+        "f0": 0.4891,
+        "f1": 0.4758,
+        "f2": 0.0351
+      },
+      "note": "half=0.01 soft; snr q25 -> 2"
+    }
+  ]
+}

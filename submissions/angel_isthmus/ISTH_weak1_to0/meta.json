@@ -1,0 +1,10 @@
+{
+  "note": "soft weak & label1 -> 0 (noise-inflated PSD hyp)",
+  "diff_vs_champ": 174,
+  "fractions": {
+    "f0": 0.4992,
+    "f1": 0.4708,
+    "f2": 0.0301
+  },
+  "mutated_in_soft": 174
+}

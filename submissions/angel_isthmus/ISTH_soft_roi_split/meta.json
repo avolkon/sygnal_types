@@ -1,0 +1,10 @@
+{
+  "note": "soft_01 re-split by roi_len med=23.0; far=champ",
+  "diff_vs_champ": 609,
+  "fractions": {
+    "f0": 0.5026,
+    "f1": 0.4673,
+    "f2": 0.0301
+  },
+  "mutated_in_soft": 609
+}

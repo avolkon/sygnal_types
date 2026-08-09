@@ -1,0 +1,10 @@
+{
+  "note": "half=0.01 soft; snr q25 -> 2",
+  "diff_vs_champ": 118,
+  "fractions": {
+    "f0": 0.4891,
+    "f1": 0.4758,
+    "f2": 0.0351
+  },
+  "mutated_in_soft": 118
+}

@@ -1,0 +1,11 @@
+{
+  "note": "soft&snr<=q25(81.71) -> 2; else champ",
+  "diff_vs_champ": 345,
+  "fractions": {
+    "f0": 0.4845,
+    "f1": 0.4708,
+    "f2": 0.0448
+  },
+  "mutated_in_soft": 345,
+  "snr_q25": 81.70758191670153
+}

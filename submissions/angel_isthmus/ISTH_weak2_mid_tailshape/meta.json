@@ -1,0 +1,11 @@
+{
+  "note": "weak->2; mid-soft re-label by norm tail[8:24] median split",
+  "diff_vs_champ": 628,
+  "fractions": {
+    "f0": 0.4955,
+    "f1": 0.4597,
+    "f2": 0.0448
+  },
+  "mutated_in_soft": 628,
+  "tail_med": 0.04086127167339442
+}

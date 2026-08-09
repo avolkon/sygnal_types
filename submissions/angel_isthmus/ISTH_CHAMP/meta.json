@@ -1,0 +1,10 @@
+{
+  "note": "champion copy",
+  "diff_vs_champ": 0,
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  },
+  "mutated_in_soft": 0
+}
