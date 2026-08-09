@@ -1,0 +1,11 @@
+{
+  "note": "champion copy: global valley+delta + q015-985",
+  "diff_vs_champ": 0,
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  },
+  "global_valley_ratio": 0.10831234255542994,
+  "global_thr": 0.6398187270804372
+}

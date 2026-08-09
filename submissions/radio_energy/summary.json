@@ -1,0 +1,101 @@
+{
+  "champion_score_ref": 0.85838,
+  "frozen": {
+    "offset": 4,
+    "short": 42,
+    "delta_default": 0.003,
+    "outlier": [
+      0.015,
+      0.985
+    ]
+  },
+  "upload_order": [
+    "RAD_peak_q4_valley",
+    "RAD_charge_q4_valley",
+    "RAD_peak_q3_valley",
+    "RAD_peak_q4_d005",
+    "RAD_peak_q4_d000"
+  ],
+  "candidates": [
+    {
+      "name": "RAD_CHAMP",
+      "diff_vs_champ": 0,
+      "fractions": {
+        "f0": 0.4918,
+        "f1": 0.4782,
+        "f2": 0.0301
+      },
+      "note": "champion copy: global valley+delta + q015-985"
+    },
+    {
+      "name": "RAD_peak_q4_valley",
+      "diff_vs_champ": 134,
+      "fractions": {
+        "f0": 0.4908,
+        "f1": 0.4791,
+        "f2": 0.0301
+      },
+      "note": "peak_above quartiles, thr=valley_b+delta"
+    },
+    {
+      "name": "RAD_peak_q3_valley",
+      "diff_vs_champ": 209,
+      "fractions": {
+        "f0": 0.4829,
+        "f1": 0.4871,
+        "f2": 0.0301
+      },
+      "note": "peak_above tertiles, thr=valley_b+delta"
+    },
+    {
+      "name": "RAD_charge_q4_valley",
+      "diff_vs_champ": 167,
+      "fractions": {
+        "f0": 0.4897,
+        "f1": 0.4803,
+        "f2": 0.0301
+      },
+      "note": "charge_roi quartiles, thr=valley_b+delta"
+    },
+    {
+      "name": "RAD_charge_q3_valley",
+      "diff_vs_champ": 207,
+      "fractions": {
+        "f0": 0.4829,
+        "f1": 0.487,
+        "f2": 0.0301
+      },
+      "note": "charge_roi tertiles, thr=valley_b+delta"
+    },
+    {
+      "name": "RAD_peak_q4_d000",
+      "diff_vs_champ": 114,
+      "fractions": {
+        "f0": 0.4895,
+        "f1": 0.4804,
+        "f2": 0.0301
+      },
+      "note": "peak_above q4, delta=0.0"
+    },
+    {
+      "name": "RAD_peak_q4_d005",
+      "diff_vs_champ": 151,
+      "fractions": {
+        "f0": 0.4921,
+        "f1": 0.4779,
+        "f2": 0.0301
+      },
+      "note": "peak_above q4, delta=0.005"
+    },
+    {
+      "name": "RAD_peak_q4_dm003",
+      "diff_vs_champ": 89,
+      "fractions": {
+        "f0": 0.488,
+        "f1": 0.482,
+        "f2": 0.0301
+      },
+      "note": "peak_above q4, delta=-0.003"
+    }
+  ]
+}
