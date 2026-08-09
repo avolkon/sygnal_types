@@ -1,0 +1,24 @@
+{
+  "note": "M0 champion freeze: PSD argmax (4,42), valley+0.003, q015-985",
+  "fractions": {
+    "f0": 0.4918,
+    "f1": 0.4782,
+    "f2": 0.0301
+  },
+  "n": 23479,
+  "step": "LIGHT-0",
+  "axis": "psd_argmax",
+  "champion_score_ref": 0.85838,
+  "window": [
+    4,
+    42
+  ],
+  "valley_ratio": 0.10831234255542994,
+  "valley": 0.6368187270804372,
+  "thr": 0.6398187270804372,
+  "qlo": 0.47838671991316434,
+  "qhi": 0.7683496648036692,
+  "mode1": 0.53581160970174,
+  "mode2": 0.6784098930599007,
+  "diff_vs_prep_psd": 0
+}

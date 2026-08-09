@@ -1,0 +1,52 @@
+{
+  "note": "LIGHT-2: tau_eff after 40% (GMM-log valley) + honesty->2 + thin tau tails",
+  "fractions": {
+    "f0": 0.4398,
+    "f1": 0.5099,
+    "f2": 0.0503
+  },
+  "n": 23479,
+  "step": "LIGHT-2",
+  "axis": "tau_eff",
+  "champion_score_ref": 0.85838,
+  "diff_vs_M0": 7556,
+  "agree_M0_on_01": 0.7163509927715253,
+  "corr_tau_psd_argmax": -0.389240819655927,
+  "fit_r2_median": 0.8528260560974579,
+  "tau_eff_finite_frac": 0.9798969291707483,
+  "valley_raw": {
+    "valley_ratio": 0.04573462882154903,
+    "valley": 34.9612931253975,
+    "mode1": 4.403153683394592,
+    "mode2": 35.64036289077534,
+    "note": "poisoned by high-tau bump \u2014 not used for split"
+  },
+  "valley_clip_p01_p95": {
+    "valley_ratio": 0.554788954947835,
+    "valley": 9.337340201390646,
+    "mode1": 4.0166893499618315,
+    "mode2": 9.6503196632394
+  },
+  "split": "gmm2_log",
+  "thr": 8.90603176890801,
+  "means_log": [
+    1.6466591960685626,
+    2.732441467904242
+  ],
+  "means_lin": [
+    5.189613353646042,
+    15.370367506530537
+  ],
+  "weights": [
+    0.5306026908919714,
+    0.46939730910802846
+  ],
+  "n_fit": 22989,
+  "qlo": 2.7342019048284443,
+  "qhi": 35.31042536830993,
+  "n_honesty_class2": 490,
+  "n_tail_class2": 690,
+  "polarity": "large_tau_is_0",
+  "tau_mean_0": 16.619982944355506,
+  "tau_mean_1": 5.413860662010456
+}

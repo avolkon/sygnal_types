@@ -1,0 +1,32 @@
+{
+  "note": "LIGHT-1: (L-S)/L windows from front t0 (alpha=0.2), same class2 policy",
+  "fractions": {
+    "f0": 0.3059,
+    "f1": 0.664,
+    "f2": 0.0301
+  },
+  "n": 23479,
+  "step": "LIGHT-1",
+  "axis": "psd_front",
+  "alpha": 0.2,
+  "champion_score_ref": 0.85838,
+  "window": [
+    4,
+    42
+  ],
+  "diff_vs_M0": 5842,
+  "corr_psd_front_argmax": 0.8085153858897927,
+  "n_qc_no_front": 0,
+  "n_qc_bad_decay_fit": 490,
+  "tau_eff_finite_frac": 0.9798969291707483,
+  "fit_r2_median": 0.8528260560974579,
+  "valley_ratio": 0.9213319759601858,
+  "valley": 0.42859103391204745,
+  "thr": 0.43159103391204745,
+  "qlo": 0.32947025083073644,
+  "qhi": 0.6105699681524317,
+  "mode1": 0.4209530484387648,
+  "mode2": 0.45914297580517827,
+  "m0_valley_ratio": 0.10831234255542994,
+  "m0_thr": 0.6398187270804372
+}
