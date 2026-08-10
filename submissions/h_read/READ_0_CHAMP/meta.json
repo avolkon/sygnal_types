@@ -1,0 +1,14 @@
+{
+  "note": "frozen lo-only q7% reference",
+  "fractions": {
+    "f0": 0.4368,
+    "f1": 0.4932,
+    "f2": 0.07
+  },
+  "diff_vs_champ": 0,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "q_lo": 0.07
+}

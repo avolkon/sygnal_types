@@ -1,0 +1,17 @@
+{
+  "hypothesis": "A6b_seed_text",
+  "note": "rng(seed=27052019) punch 10% of run -> 2",
+  "fractions": {
+    "f0": 0.3897,
+    "f1": 0.4403,
+    "f2": 0.17
+  },
+  "diff_vs_base_089109": 2348,
+  "n_to_2": 2348,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "rng(seed=27052019) punch 10% of run -> 2",
+  "n_punch": 2348,
+  "seed": 27052019
+}

@@ -1,0 +1,16 @@
+{
+  "hypothesis": "A2_multipeak",
+  "note": "multi_peak->2 on base",
+  "fractions": {
+    "f0": 0.4303,
+    "f1": 0.4926,
+    "f2": 0.0771
+  },
+  "diff_vs_base_089109": 166,
+  "n_to_2": 166,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "multi_peak->2 on base",
+  "n_multi": 233
+}

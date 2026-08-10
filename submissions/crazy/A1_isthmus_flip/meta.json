@@ -1,0 +1,17 @@
+{
+  "hypothesis": "A1_isthmus_flip",
+  "note": "flip 0<->1 if |psd-thr|<0.015",
+  "fractions": {
+    "f0": 0.4475,
+    "f1": 0.4825,
+    "f2": 0.07
+  },
+  "diff_vs_base_089109": 821,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 821,
+  "champion_score_ref": 0.89109,
+  "rule": "flip 0<->1 if |psd-thr|<0.015",
+  "n_flipped": 821,
+  "half": 0.015
+}

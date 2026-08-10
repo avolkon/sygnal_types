@@ -1,0 +1,21 @@
+{
+  "hypothesis": "A3b_rolling_baseline",
+  "note": "rolling pedestal window=500 then lo-only PSD",
+  "fractions": {
+    "f0": 0.4368,
+    "f1": 0.4932,
+    "f2": 0.07
+  },
+  "diff_vs_base_089109": 0,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "valley_ratio": 0.10831234255542949,
+  "valley": 0.636818727080442,
+  "thr": 0.639818727080442,
+  "q_lo": 0.07,
+  "qlo_value": 0.5049579780879162,
+  "rule": "rolling pedestal window=500 then lo-only PSD",
+  "roll_window": 500
+}

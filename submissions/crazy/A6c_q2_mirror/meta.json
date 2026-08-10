@@ -1,0 +1,18 @@
+{
+  "hypothesis": "A6c_q2_mirror",
+  "note": "mirror 0<->1 in peak quartile 2",
+  "fractions": {
+    "f0": 0.4133,
+    "f1": 0.5167,
+    "f2": 0.07
+  },
+  "diff_vs_base_089109": 5629,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 5629,
+  "champion_score_ref": 0.89109,
+  "rule": "mirror 0<->1 in peak quartile 2",
+  "n_flipped": 5629,
+  "peak_lo": 812.54,
+  "peak_hi": 2315.05
+}

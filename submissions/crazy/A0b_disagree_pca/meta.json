@@ -1,0 +1,16 @@
+{
+  "hypothesis": "A0b_disagree_pca",
+  "note": "psd_vs_pca_disagree->2 + lo_q07",
+  "fractions": {
+    "f0": 0.2236,
+    "f1": 0.3425,
+    "f2": 0.4338
+  },
+  "diff_vs_base_089109": 8542,
+  "n_to_2": 8542,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "psd_vs_pca_disagree->2 + lo_q07",
+  "n_disagree": 9875
+}

@@ -1,0 +1,17 @@
+{
+  "hypothesis": "A5b_balance_ritual",
+  "note": "ritual f2~10% lo-only",
+  "fractions": {
+    "f0": 0.4068,
+    "f1": 0.4932,
+    "f2": 0.1
+  },
+  "diff_vs_base_089109": 704,
+  "n_to_2": 704,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "ritual f2~10% lo-only",
+  "qlo_value": 0.5125262704563927,
+  "target_f2": 0.1
+}

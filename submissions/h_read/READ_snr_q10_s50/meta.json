@@ -1,0 +1,23 @@
+{
+  "note": "door q=0.1; class2 if snr < p50 inside door",
+  "fractions": {
+    "f0": 0.4568,
+    "f1": 0.4932,
+    "f2": 0.05
+  },
+  "diff_vs_champ": 1038,
+  "n_to_2": 284,
+  "n_from_2": 754,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "hypothesis": "H_READ",
+  "thr": 0.6398187270804372,
+  "q_lo": 0.1,
+  "qlo_value": 0.5125262704563927,
+  "z_cut": null,
+  "s_cut": 188.63962667848747,
+  "q_lo_floor": null,
+  "n_door": 2348,
+  "n_class2": 1174,
+  "s_pct_in_door": 50
+}

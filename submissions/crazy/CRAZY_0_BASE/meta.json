@@ -1,0 +1,15 @@
+{
+  "hypothesis": "CRAZY_0_BASE",
+  "note": "freeze asymmetric lo-only q7% (0.89109)",
+  "fractions": {
+    "f0": 0.4368,
+    "f1": 0.4932,
+    "f2": 0.07
+  },
+  "diff_vs_base_089109": 0,
+  "n_to_2": 0,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "base"
+}

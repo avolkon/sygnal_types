@@ -1,0 +1,23 @@
+{
+  "note": "q7% door; only weakest 40% by z_tail -> 2 (rescue rest to 01)",
+  "fractions": {
+    "f0": 0.4788,
+    "f1": 0.4932,
+    "f2": 0.028
+  },
+  "diff_vs_champ": 986,
+  "n_to_2": 0,
+  "n_from_2": 986,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "hypothesis": "H_READ",
+  "thr": 0.6398187270804372,
+  "q_lo": 0.07,
+  "qlo_value": 0.5049579780879166,
+  "z_cut": 25.07488802996105,
+  "s_cut": null,
+  "q_lo_floor": null,
+  "n_door": 1644,
+  "n_class2": 658,
+  "keep_pct_of_door": 40
+}

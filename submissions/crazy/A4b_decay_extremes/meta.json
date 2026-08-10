@@ -1,0 +1,19 @@
+{
+  "hypothesis": "A4b_decay_extremes",
+  "note": "decay hang|<=1|q99 -> 2 on base",
+  "fractions": {
+    "f0": 0.4276,
+    "f1": 0.4917,
+    "f2": 0.0807
+  },
+  "diff_vs_base_089109": 251,
+  "n_to_2": 251,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "decay hang|<=1|q99 -> 2 on base",
+  "n_hang": 0,
+  "n_dmin": 37,
+  "n_rare_hi": 381,
+  "n_mask": 418
+}

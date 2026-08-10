@@ -1,0 +1,17 @@
+{
+  "hypothesis": "A0_disagree_decay",
+  "note": "psd_vs_decay_disagree->2 + lo_q07",
+  "fractions": {
+    "f0": 0.1243,
+    "f1": 0.4565,
+    "f2": 0.4192
+  },
+  "diff_vs_base_089109": 8199,
+  "n_to_2": 8199,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "psd_vs_decay_disagree->2 + lo_q07",
+  "n_disagree": 9050,
+  "agree_frac_before": 0.6145491716001533
+}

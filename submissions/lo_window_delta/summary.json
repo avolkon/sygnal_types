@@ -1,0 +1,166 @@
+{
+  "champion_score_ref": 0.89109,
+  "policy": "lo-only q7%; never hi-tail class2",
+  "champ_window": [
+    4,
+    42
+  ],
+  "champ_delta": 0.003,
+  "best_valley_ratio_windows": [
+    {
+      "name": "LOWD_W_5_44_d003",
+      "kind": "window",
+      "offset": 5,
+      "short": 44,
+      "delta": 0.003,
+      "valley_ratio": 0.05974171812862926,
+      "diff_vs_champ": 872,
+      "fractions": {
+        "f0": 0.4268,
+        "f1": 0.5032,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_5_50_d003",
+      "kind": "window",
+      "offset": 5,
+      "short": 50,
+      "delta": 0.003,
+      "valley_ratio": 0.06034878383831908,
+      "diff_vs_champ": 1097,
+      "fractions": {
+        "f0": 0.4268,
+        "f1": 0.5031,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_5_42_d003",
+      "kind": "window",
+      "offset": 5,
+      "short": 42,
+      "delta": 0.003,
+      "valley_ratio": 0.060451161232878865,
+      "diff_vs_champ": 805,
+      "fractions": {
+        "f0": 0.4268,
+        "f1": 0.5032,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_5_48_d003",
+      "kind": "window",
+      "offset": 5,
+      "short": 48,
+      "delta": 0.003,
+      "valley_ratio": 0.061024755317680986,
+      "diff_vs_champ": 1027,
+      "fractions": {
+        "f0": 0.4268,
+        "f1": 0.5031,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_5_40_d003",
+      "kind": "window",
+      "offset": 5,
+      "short": 40,
+      "delta": 0.003,
+      "valley_ratio": 0.06281796062067249,
+      "diff_vs_champ": 701,
+      "fractions": {
+        "f0": 0.4301,
+        "f1": 0.4999,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_5_36_d003",
+      "kind": "window",
+      "offset": 5,
+      "short": 36,
+      "delta": 0.003,
+      "valley_ratio": 0.07323943661080097,
+      "diff_vs_champ": 799,
+      "fractions": {
+        "f0": 0.43,
+        "f1": 0.5,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_6_44_d003",
+      "kind": "window",
+      "offset": 6,
+      "short": 44,
+      "delta": 0.003,
+      "valley_ratio": 0.07756359072845237,
+      "diff_vs_champ": 1359,
+      "fractions": {
+        "f0": 0.422,
+        "f1": 0.508,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_6_42_d003",
+      "kind": "window",
+      "offset": 6,
+      "short": 42,
+      "delta": 0.003,
+      "valley_ratio": 0.07760381210759006,
+      "diff_vs_champ": 1293,
+      "fractions": {
+        "f0": 0.422,
+        "f1": 0.508,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_6_36_d003",
+      "kind": "window",
+      "offset": 6,
+      "short": 36,
+      "delta": 0.003,
+      "valley_ratio": 0.07844429794719762,
+      "diff_vs_champ": 1118,
+      "fractions": {
+        "f0": 0.4257,
+        "f1": 0.5043,
+        "f2": 0.07
+      }
+    },
+    {
+      "name": "LOWD_W_6_40_d003",
+      "kind": "window",
+      "offset": 6,
+      "short": 40,
+      "delta": 0.003,
+      "valley_ratio": 0.07879065505210935,
+      "diff_vs_champ": 1227,
+      "fractions": {
+        "f0": 0.422,
+        "f1": 0.508,
+        "f2": 0.07
+      }
+    }
+  ],
+  "upload_order": [
+    "LOWD_W_5_44_d003",
+    "LOWD_W_5_50_d003",
+    "LOWD_W_5_42_d003",
+    "LOWD_W_5_48_d003",
+    "LOWD_W_5_40_d003",
+    "LOWD_W_5_36_d003",
+    "LOWD_W_4_42_d000",
+    "LOWD_W_4_42_d001",
+    "LOWD_W_4_42_d002",
+    "LOWD_W_4_42_d004",
+    "LOWD_W_4_42_d005",
+    "LOWD_W_5_44_d002"
+  ],
+  "n_candidates": 62
+}

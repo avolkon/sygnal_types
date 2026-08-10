@@ -1,0 +1,153 @@
+{
+  "hypothesis": "H_READ",
+  "champion_score_ref": 0.89109,
+  "upload_order": [
+    "READ_prec_q10_z40",
+    "READ_rescue07_k50",
+    "READ_joint_q10_z45_s45_floor03",
+    "READ_snr_q10_s40",
+    "READ_prec_q10_z30"
+  ],
+  "candidates": [
+    {
+      "name": "READ_0_CHAMP",
+      "fractions": {
+        "f0": 0.4368,
+        "f1": 0.4932,
+        "f2": 0.07
+      },
+      "diff_vs_champ": 0,
+      "note": "frozen lo-only q7% reference"
+    },
+    {
+      "name": "READ_prec_q10_z50",
+      "fractions": {
+        "f0": 0.4568,
+        "f1": 0.4932,
+        "f2": 0.05
+      },
+      "diff_vs_champ": 1022,
+      "note": "door q=0.1; class2 if z_tail < p50 inside door"
+    },
+    {
+      "name": "READ_prec_q10_z40",
+      "fractions": {
+        "f0": 0.4668,
+        "f1": 0.4932,
+        "f2": 0.04
+      },
+      "diff_vs_champ": 1153,
+      "note": "door q=0.1; class2 if z_tail < p40 inside door"
+    },
+    {
+      "name": "READ_prec_q10_z30",
+      "fractions": {
+        "f0": 0.4768,
+        "f1": 0.4932,
+        "f2": 0.03
+      },
+      "diff_vs_champ": 1253,
+      "note": "door q=0.1; class2 if z_tail < p30 inside door"
+    },
+    {
+      "name": "READ_prec_q12_z40",
+      "fractions": {
+        "f0": 0.4588,
+        "f1": 0.4932,
+        "f2": 0.048
+      },
+      "diff_vs_champ": 1249,
+      "note": "door q=0.12; class2 if z_tail < p40 inside door"
+    },
+    {
+      "name": "READ_prec_q08_z50",
+      "fractions": {
+        "f0": 0.4668,
+        "f1": 0.4932,
+        "f2": 0.04
+      },
+      "diff_vs_champ": 881,
+      "note": "door q=0.08; class2 if z_tail < p50 inside door"
+    },
+    {
+      "name": "READ_rescue07_k40",
+      "fractions": {
+        "f0": 0.4788,
+        "f1": 0.4932,
+        "f2": 0.028
+      },
+      "diff_vs_champ": 986,
+      "note": "q7% door; only weakest 40% by z_tail -> 2 (rescue rest to 01)"
+    },
+    {
+      "name": "READ_rescue07_k50",
+      "fractions": {
+        "f0": 0.4718,
+        "f1": 0.4932,
+        "f2": 0.035
+      },
+      "diff_vs_champ": 822,
+      "note": "q7% door; only weakest 50% by z_tail -> 2 (rescue rest to 01)"
+    },
+    {
+      "name": "READ_rescue07_k60",
+      "fractions": {
+        "f0": 0.4648,
+        "f1": 0.4932,
+        "f2": 0.042
+      },
+      "diff_vs_champ": 658,
+      "note": "q7% door; only weakest 60% by z_tail -> 2 (rescue rest to 01)"
+    },
+    {
+      "name": "READ_rescue07_k70",
+      "fractions": {
+        "f0": 0.4578,
+        "f1": 0.4932,
+        "f2": 0.049
+      },
+      "diff_vs_champ": 493,
+      "note": "q7% door; only weakest 70% by z_tail -> 2 (rescue rest to 01)"
+    },
+    {
+      "name": "READ_snr_q10_s40",
+      "fractions": {
+        "f0": 0.4668,
+        "f1": 0.4932,
+        "f2": 0.04
+      },
+      "diff_vs_champ": 1149,
+      "note": "door q=0.1; class2 if snr < p40 inside door"
+    },
+    {
+      "name": "READ_snr_q07_s50",
+      "fractions": {
+        "f0": 0.4718,
+        "f1": 0.4932,
+        "f2": 0.035
+      },
+      "diff_vs_champ": 822,
+      "note": "door q=0.07; class2 if snr < p50 inside door"
+    },
+    {
+      "name": "READ_snr_q10_s50",
+      "fractions": {
+        "f0": 0.4568,
+        "f1": 0.4932,
+        "f2": 0.05
+      },
+      "diff_vs_champ": 1038,
+      "note": "door q=0.1; class2 if snr < p50 inside door"
+    },
+    {
+      "name": "READ_joint_q10_z45_s45_floor03",
+      "fractions": {
+        "f0": 0.4516,
+        "f1": 0.4932,
+        "f2": 0.0552
+      },
+      "diff_vs_champ": 819,
+      "note": "door q10%; class2 if z AND snr weak; floor q3%"
+    }
+  ]
+}

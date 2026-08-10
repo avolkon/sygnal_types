@@ -1,0 +1,14 @@
+{
+  "c": 0.51,
+  "q07_value": 0.5049579780879166,
+  "thr": 0.6398187270804372,
+  "fractions": {
+    "f0": 0.4175,
+    "f1": 0.4932,
+    "f2": 0.0893
+  },
+  "diff_vs_champ": 452,
+  "n_class2": 2096,
+  "champion_score_ref": 0.89109,
+  "note": "abs class2: psd < 0.51; type (4,42) valley+0.003; no hi-tail"
+}

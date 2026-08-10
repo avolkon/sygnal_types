@@ -1,0 +1,18 @@
+{
+  "hypothesis": "A2b_nonproportional",
+  "note": "|logCharge - (a+b logPeak)| > 2.5 sigma -> 2",
+  "fractions": {
+    "f0": 0.4367,
+    "f1": 0.4903,
+    "f2": 0.073
+  },
+  "diff_vs_base_089109": 69,
+  "n_to_2": 69,
+  "n_from_2": 0,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "rule": "|logCharge - (a+b logPeak)| > 2.5 sigma -> 2",
+  "n_nonprop": 69,
+  "fit_a": 1.4959344908979024,
+  "fit_b": 1.0185225609199067
+}

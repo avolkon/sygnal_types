@@ -1,0 +1,18 @@
+{
+  "note": "door q10%; class2 if z AND snr weak; floor q3%",
+  "fractions": {
+    "f0": 0.4516,
+    "f1": 0.4932,
+    "f2": 0.0552
+  },
+  "diff_vs_champ": 819,
+  "n_to_2": 236,
+  "n_from_2": 583,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "q_lo": 0.1,
+  "z_cut": 27.217046065945322,
+  "s_cut": 175.70257109273052,
+  "q_lo_floor": 0.03,
+  "n_class2": 1297
+}

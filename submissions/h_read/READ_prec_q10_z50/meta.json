@@ -1,0 +1,23 @@
+{
+  "note": "door q=0.1; class2 if z_tail < p50 inside door",
+  "fractions": {
+    "f0": 0.4568,
+    "f1": 0.4932,
+    "f2": 0.05
+  },
+  "diff_vs_champ": 1022,
+  "n_to_2": 276,
+  "n_from_2": 746,
+  "n_flip01": 0,
+  "champion_score_ref": 0.89109,
+  "hypothesis": "H_READ",
+  "thr": 0.6398187270804372,
+  "q_lo": 0.1,
+  "qlo_value": 0.5125262704563927,
+  "z_cut": 28.422214808025117,
+  "s_cut": null,
+  "q_lo_floor": null,
+  "n_door": 2348,
+  "n_class2": 1174,
+  "z_pct_in_door": 50
+}

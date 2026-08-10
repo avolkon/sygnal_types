@@ -1,0 +1,160 @@
+{
+  "branch": "crazy",
+  "champion_score_ref": 0.89109,
+  "upload_order": [
+    "A0_disagree_decay",
+    "A2b_nonproportional",
+    "A4b_decay_extremes",
+    "A1_isthmus_flip",
+    "A0b_disagree_pca",
+    "A2_multipeak",
+    "A6c_q0_mirror",
+    "A3_index_blocks",
+    "A3b_rolling_baseline",
+    "A5b_balance_ritual",
+    "A6b_seed_text"
+  ],
+  "stop_rule": "two consecutive <= 0.89109 without diagnostic win -> stop that family",
+  "candidates": [
+    {
+      "name": "A0_disagree_decay",
+      "fractions": {
+        "f0": 0.1243,
+        "f1": 0.4565,
+        "f2": 0.4192
+      },
+      "diff_vs_base_089109": 8199,
+      "note": "psd_vs_decay_disagree->2 + lo_q07"
+    },
+    {
+      "name": "A0b_disagree_pca",
+      "fractions": {
+        "f0": 0.2236,
+        "f1": 0.3425,
+        "f2": 0.4338
+      },
+      "diff_vs_base_089109": 8542,
+      "note": "psd_vs_pca_disagree->2 + lo_q07"
+    },
+    {
+      "name": "A1_isthmus_flip",
+      "fractions": {
+        "f0": 0.4475,
+        "f1": 0.4825,
+        "f2": 0.07
+      },
+      "diff_vs_base_089109": 821,
+      "note": "flip 0<->1 if |psd-thr|<0.015"
+    },
+    {
+      "name": "A2_multipeak",
+      "fractions": {
+        "f0": 0.4303,
+        "f1": 0.4926,
+        "f2": 0.0771
+      },
+      "diff_vs_base_089109": 166,
+      "note": "multi_peak->2 on base"
+    },
+    {
+      "name": "A2b_nonproportional",
+      "fractions": {
+        "f0": 0.4367,
+        "f1": 0.4903,
+        "f2": 0.073
+      },
+      "diff_vs_base_089109": 69,
+      "note": "|logCharge - (a+b logPeak)| > 2.5 sigma -> 2"
+    },
+    {
+      "name": "A3_index_blocks",
+      "fractions": {
+        "f0": 0.4338,
+        "f1": 0.496,
+        "f2": 0.0702
+      },
+      "diff_vs_base_089109": 112,
+      "note": "per-index 8 blocks valley+lo7%"
+    },
+    {
+      "name": "A4b_decay_extremes",
+      "fractions": {
+        "f0": 0.4276,
+        "f1": 0.4917,
+        "f2": 0.0807
+      },
+      "diff_vs_base_089109": 251,
+      "note": "decay hang|<=1|q99 -> 2 on base"
+    },
+    {
+      "name": "A5b_balance_ritual",
+      "fractions": {
+        "f0": 0.4068,
+        "f1": 0.4932,
+        "f2": 0.1
+      },
+      "diff_vs_base_089109": 704,
+      "note": "ritual f2~10% lo-only"
+    },
+    {
+      "name": "A6b_seed_text",
+      "fractions": {
+        "f0": 0.3897,
+        "f1": 0.4403,
+        "f2": 0.17
+      },
+      "diff_vs_base_089109": 2348,
+      "note": "rng(seed=27052019) punch 10% of run -> 2"
+    },
+    {
+      "name": "A6c_q0_mirror",
+      "fractions": {
+        "f0": 0.4412,
+        "f1": 0.4888,
+        "f2": 0.07
+      },
+      "diff_vs_base_089109": 5392,
+      "note": "mirror 0<->1 in peak quartile 0"
+    },
+    {
+      "name": "A6c_q1_mirror",
+      "fractions": {
+        "f0": 0.4613,
+        "f1": 0.4687,
+        "f2": 0.07
+      },
+      "diff_vs_base_089109": 4944,
+      "note": "mirror 0<->1 in peak quartile 1"
+    },
+    {
+      "name": "A6c_q2_mirror",
+      "fractions": {
+        "f0": 0.4133,
+        "f1": 0.5167,
+        "f2": 0.07
+      },
+      "diff_vs_base_089109": 5629,
+      "note": "mirror 0<->1 in peak quartile 2"
+    },
+    {
+      "name": "A6c_q3_mirror",
+      "fractions": {
+        "f0": 0.4877,
+        "f1": 0.4423,
+        "f2": 0.07
+      },
+      "diff_vs_base_089109": 5870,
+      "note": "mirror 0<->1 in peak quartile 3"
+    },
+    {
+      "name": "A3b_rolling_baseline",
+      "fractions": {
+        "f0": 0.4368,
+        "f1": 0.4932,
+        "f2": 0.07
+      },
+      "diff_vs_base_089109": 0,
+      "note": "rolling pedestal window=500 then lo-only PSD"
+    }
+  ]
+}

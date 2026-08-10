@@ -1,0 +1,40 @@
+{
+  "hypothesis": "A3_index_blocks",
+  "note": "per-index 8 blocks valley+lo7%",
+  "fractions": {
+    "f0": 0.4338,
+    "f1": 0.496,
+    "f2": 0.0702
+  },
+  "diff_vs_base_089109": 112,
+  "n_to_2": 22,
+  "n_from_2": 18,
+  "n_flip01": 72,
+  "champion_score_ref": 0.89109,
+  "rule": "per-index 8 blocks valley+lo7%",
+  "blocks": [
+    {
+      "block": 0,
+      "thr": 0.6414063929985169,
+      "qlo": 0.5045756887295779,
+      "n": 2934
+    },
+    {
+      "block": 1,
+      "thr": 0.6342721257157972,
+      "qlo": 0.504861249299316,
+      "n": 2935
+    },
+    {
+      "block": 2,
+      "thr": 0.6374509315514267,
+      "qlo": 0.5048118123597856,
+      "n": 2935
+    },
+    {
+      "truncated": true,
+      "total": 8
+    }
+  ],
+  "n_blocks": 8
+}
